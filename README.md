@@ -15,5 +15,7 @@ Repository for mentees' problem solving practice, review, and improvements. Writ
 
 ## How to run tests?
 This is a macOS framework and you can only build it or runt tests on it
+
 Run tests - **CMND + U**
+
 Run build - **CMND + B**
