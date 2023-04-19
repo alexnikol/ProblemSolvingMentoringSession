@@ -4,7 +4,9 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class SumatorChallengeTests: XCTestCase {
-    private var sumators: [SumatorChallengeProtocol] = []
+    private var sumators: [SumatorChallengeProtocol] = [
+        SumatorChallenge_Nikolaichuk()
+    ]
     
     func test_sumators() {
         sumators.forEach { assertThat(sumator: $0) }

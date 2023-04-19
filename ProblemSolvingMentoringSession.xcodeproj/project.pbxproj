@@ -19,6 +19,7 @@
 		8D4300D029F01ABB007BDE1A /* IntegersAcceptorChallengeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4300CF29F01ABB007BDE1A /* IntegersAcceptorChallengeProtocol.swift */; };
 		8D4300D229F01F28007BDE1A /* IntegersAcceptorChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4300D129F01F28007BDE1A /* IntegersAcceptorChallengeTests.swift */; };
 		8D4300D529F02138007BDE1A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8D4300D429F02138007BDE1A /* README.md */; };
+		8D4300D729F02CC3007BDE1A /* SumatorChallenge_Nikolaichuk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4300D629F02CC3007BDE1A /* SumatorChallenge_Nikolaichuk.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		8D4300CF29F01ABB007BDE1A /* IntegersAcceptorChallengeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegersAcceptorChallengeProtocol.swift; sourceTree = "<group>"; };
 		8D4300D129F01F28007BDE1A /* IntegersAcceptorChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegersAcceptorChallengeTests.swift; sourceTree = "<group>"; };
 		8D4300D429F02138007BDE1A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8D4300D629F02CC3007BDE1A /* SumatorChallenge_Nikolaichuk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumatorChallenge_Nikolaichuk.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		8D4300B329EFE60B007BDE1A /* Solvings */ = {
 			isa = PBXGroup;
 			children = (
+				8D4300D629F02CC3007BDE1A /* SumatorChallenge_Nikolaichuk.swift */,
 			);
 			path = Solvings;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D4300D729F02CC3007BDE1A /* SumatorChallenge_Nikolaichuk.swift in Sources */,
 				8D4300D029F01ABB007BDE1A /* IntegersAcceptorChallengeProtocol.swift in Sources */,
 				8D4300BA29EFF213007BDE1A /* MinimumNumberInListChallengeProtocol.swift in Sources */,
 				8D4300AF29EFE367007BDE1A /* SumatorChallengeProtocol.swift in Sources */,
