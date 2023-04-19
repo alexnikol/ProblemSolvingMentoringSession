@@ -1,4 +1,5 @@
 .DS_Store
+*.xcuserstate
 *xcworkspace/xcuserdata/*
 ProblemSolvingMentoringSession.xcodeproj/project.xcworkspace/xcuserdata/
 ### macOS ###
