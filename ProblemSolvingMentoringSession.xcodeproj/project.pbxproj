@@ -23,6 +23,8 @@
 		8D4300DC29F146A5007BDE1A /* FirstAndLastStringChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4300DB29F146A5007BDE1A /* FirstAndLastStringChallengeTests.swift */; };
 		8D4300DF29F15565007BDE1A /* FirstIndexOfSearchedItemChallengeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4300DE29F15565007BDE1A /* FirstIndexOfSearchedItemChallengeProtocol.swift */; };
 		8D4300E129F15692007BDE1A /* FirstIndexOfSearchedItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4300E029F15692007BDE1A /* FirstIndexOfSearchedItemTests.swift */; };
+		8D4300E429F158F2007BDE1A /* PairedOrUnpairedNumbersChallengeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4300E329F158F2007BDE1A /* PairedOrUnpairedNumbersChallengeProtocol.swift */; };
+		8D4300E629F15A2F007BDE1A /* PairedOrUnpairedNumbersChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4300E529F15A2F007BDE1A /* PairedOrUnpairedNumbersChallengeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		8D4300DB29F146A5007BDE1A /* FirstAndLastStringChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAndLastStringChallengeTests.swift; sourceTree = "<group>"; };
 		8D4300DE29F15565007BDE1A /* FirstIndexOfSearchedItemChallengeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstIndexOfSearchedItemChallengeProtocol.swift; sourceTree = "<group>"; };
 		8D4300E029F15692007BDE1A /* FirstIndexOfSearchedItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstIndexOfSearchedItemTests.swift; sourceTree = "<group>"; };
+		8D4300E329F158F2007BDE1A /* PairedOrUnpairedNumbersChallengeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairedOrUnpairedNumbersChallengeProtocol.swift; sourceTree = "<group>"; };
+		8D4300E529F15A2F007BDE1A /* PairedOrUnpairedNumbersChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairedOrUnpairedNumbersChallengeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 		8D43009729EFE30D007BDE1A /* ProblemSolvingMentoringSession */ = {
 			isa = PBXGroup;
 			children = (
+				8D4300E229F15884007BDE1A /* PairedOrUnpairedNumbersChallenge */,
 				8D4300DD29F1554A007BDE1A /* FirstIndexOfSearchedItemChallenge */,
 				8D4300D829F139C3007BDE1A /* FirstAndLastStringChallenge */,
 				8D4300CE29F01AB4007BDE1A /* IntegersAcceptorChallenge */,
@@ -117,6 +122,7 @@
 				8D4300D129F01F28007BDE1A /* IntegersAcceptorChallengeTests.swift */,
 				8D4300DB29F146A5007BDE1A /* FirstAndLastStringChallengeTests.swift */,
 				8D4300E029F15692007BDE1A /* FirstIndexOfSearchedItemTests.swift */,
+				8D4300E529F15A2F007BDE1A /* PairedOrUnpairedNumbersChallengeTests.swift */,
 			);
 			path = ProblemSolvingMentoringSessionTests;
 			sourceTree = "<group>";
@@ -215,6 +221,14 @@
 				8D4300DE29F15565007BDE1A /* FirstIndexOfSearchedItemChallengeProtocol.swift */,
 			);
 			path = FirstIndexOfSearchedItemChallenge;
+			sourceTree = "<group>";
+		};
+		8D4300E229F15884007BDE1A /* PairedOrUnpairedNumbersChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				8D4300E329F158F2007BDE1A /* PairedOrUnpairedNumbersChallengeProtocol.swift */,
+			);
+			path = PairedOrUnpairedNumbersChallenge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D4300E429F158F2007BDE1A /* PairedOrUnpairedNumbersChallengeProtocol.swift in Sources */,
 				8D4300DA29F139E1007BDE1A /* FirstAndLastStringChallengeProtocol.swift in Sources */,
 				8D4300D029F01ABB007BDE1A /* IntegersAcceptorChallengeProtocol.swift in Sources */,
 				8D4300BA29EFF213007BDE1A /* MinimumNumberInListChallengeProtocol.swift in Sources */,
@@ -348,6 +363,7 @@
 				8D4300B129EFE384007BDE1A /* SumatorChallengeTests.swift in Sources */,
 				8D4300D229F01F28007BDE1A /* IntegersAcceptorChallengeTests.swift in Sources */,
 				8D4300C729EFF7A2007BDE1A /* FindExtremumsInListChallengeTests.swift in Sources */,
+				8D4300E629F15A2F007BDE1A /* PairedOrUnpairedNumbersChallengeTests.swift in Sources */,
 				8D4300DC29F146A5007BDE1A /* FirstAndLastStringChallengeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
