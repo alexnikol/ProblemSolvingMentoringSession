@@ -4,7 +4,9 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class IntegersAcceptorChallengeTests: XCTestCase {
-    private var solvings: [IntegersAcceptorChallengeProtocol] = []
+    private var solvings: [IntegersAcceptorChallengeProtocol] = [
+    IntegersAcceptorChallenge_Kharchenko()
+    ]
     
     func test_solvings() {
         solvings.forEach { assertThat(solving: $0) }
