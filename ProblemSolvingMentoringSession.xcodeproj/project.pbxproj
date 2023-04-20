@@ -19,6 +19,8 @@
 		8D4300D029F01ABB007BDE1A /* IntegersAcceptorChallengeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4300CF29F01ABB007BDE1A /* IntegersAcceptorChallengeProtocol.swift */; };
 		8D4300D229F01F28007BDE1A /* IntegersAcceptorChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4300D129F01F28007BDE1A /* IntegersAcceptorChallengeTests.swift */; };
 		8D4300D529F02138007BDE1A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8D4300D429F02138007BDE1A /* README.md */; };
+		8D4300DA29F139E1007BDE1A /* FirstAndLastStringChallengeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4300D929F139E1007BDE1A /* FirstAndLastStringChallengeProtocol.swift */; };
+		8D4300DC29F146A5007BDE1A /* FirstAndLastStringChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4300DB29F146A5007BDE1A /* FirstAndLastStringChallengeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		8D4300CF29F01ABB007BDE1A /* IntegersAcceptorChallengeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegersAcceptorChallengeProtocol.swift; sourceTree = "<group>"; };
 		8D4300D129F01F28007BDE1A /* IntegersAcceptorChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegersAcceptorChallengeTests.swift; sourceTree = "<group>"; };
 		8D4300D429F02138007BDE1A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8D4300D929F139E1007BDE1A /* FirstAndLastStringChallengeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAndLastStringChallengeProtocol.swift; sourceTree = "<group>"; };
+		8D4300DB29F146A5007BDE1A /* FirstAndLastStringChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAndLastStringChallengeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 		8D43009729EFE30D007BDE1A /* ProblemSolvingMentoringSession */ = {
 			isa = PBXGroup;
 			children = (
+				8D4300D829F139C3007BDE1A /* FirstAndLastStringChallenge */,
 				8D4300CE29F01AB4007BDE1A /* IntegersAcceptorChallenge */,
 				8D4300C829F016B8007BDE1A /* AbsoluteDifferenceChallenge */,
 				8D4300AD29EFE347007BDE1A /* SumatorChallenge */,
@@ -105,6 +110,7 @@
 				8D4300C629EFF7A2007BDE1A /* FindExtremumsInListChallengeTests.swift */,
 				8D4300CC29F0172A007BDE1A /* AbsoluteDifferenceChallengeTests.swift */,
 				8D4300D129F01F28007BDE1A /* IntegersAcceptorChallengeTests.swift */,
+				8D4300DB29F146A5007BDE1A /* FirstAndLastStringChallengeTests.swift */,
 			);
 			path = ProblemSolvingMentoringSessionTests;
 			sourceTree = "<group>";
@@ -187,6 +193,14 @@
 			children = (
 			);
 			path = Solvings;
+			sourceTree = "<group>";
+		};
+		8D4300D829F139C3007BDE1A /* FirstAndLastStringChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				8D4300D929F139E1007BDE1A /* FirstAndLastStringChallengeProtocol.swift */,
+			);
+			path = FirstAndLastStringChallenge;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D4300DA29F139E1007BDE1A /* FirstAndLastStringChallengeProtocol.swift in Sources */,
 				8D4300D029F01ABB007BDE1A /* IntegersAcceptorChallengeProtocol.swift in Sources */,
 				8D4300BA29EFF213007BDE1A /* MinimumNumberInListChallengeProtocol.swift in Sources */,
 				8D4300AF29EFE367007BDE1A /* SumatorChallengeProtocol.swift in Sources */,
@@ -317,6 +332,7 @@
 				8D4300B129EFE384007BDE1A /* SumatorChallengeTests.swift in Sources */,
 				8D4300D229F01F28007BDE1A /* IntegersAcceptorChallengeTests.swift in Sources */,
 				8D4300C729EFF7A2007BDE1A /* FindExtremumsInListChallengeTests.swift in Sources */,
+				8D4300DC29F146A5007BDE1A /* FirstAndLastStringChallengeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
