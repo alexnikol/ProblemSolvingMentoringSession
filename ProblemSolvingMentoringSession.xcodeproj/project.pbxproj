@@ -29,6 +29,8 @@
 		8DCA3B8329F287B8002A185B /* FindIndexOfSearchedNumberChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA3B8229F287B8002A185B /* FindIndexOfSearchedNumberChallengeTests.swift */; };
 		8DCA3B8629F289D2002A185B /* CountDuplicatesChallengeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA3B8529F289D2002A185B /* CountDuplicatesChallengeProtocol.swift */; };
 		8DCA3B8829F28A43002A185B /* CountDuplicatesChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA3B8729F28A43002A185B /* CountDuplicatesChallengeTests.swift */; };
+		8DCA3B8A29F28BBF002A185B /* FindAndReturnAllPairedNumbersChallengeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA3B8929F28BBF002A185B /* FindAndReturnAllPairedNumbersChallengeProtocol.swift */; };
+		8DCA3B8D29F28C0D002A185B /* FindAndReturnAllPairedNumbersChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA3B8C29F28C0D002A185B /* FindAndReturnAllPairedNumbersChallengeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		8DCA3B8229F287B8002A185B /* FindIndexOfSearchedNumberChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindIndexOfSearchedNumberChallengeTests.swift; sourceTree = "<group>"; };
 		8DCA3B8529F289D2002A185B /* CountDuplicatesChallengeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDuplicatesChallengeProtocol.swift; sourceTree = "<group>"; };
 		8DCA3B8729F28A43002A185B /* CountDuplicatesChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDuplicatesChallengeTests.swift; sourceTree = "<group>"; };
+		8DCA3B8929F28BBF002A185B /* FindAndReturnAllPairedNumbersChallengeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAndReturnAllPairedNumbersChallengeProtocol.swift; sourceTree = "<group>"; };
+		8DCA3B8C29F28C0D002A185B /* FindAndReturnAllPairedNumbersChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAndReturnAllPairedNumbersChallengeTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 		8D43009729EFE30D007BDE1A /* ProblemSolvingMentoringSession */ = {
 			isa = PBXGroup;
 			children = (
+				8DCA3B8B29F28BC5002A185B /* FindAndReturnAllPairedNumbersChallenge */,
 				8DCA3B8429F28942002A185B /* CountDuplicatesChallenge */,
 				8DCA3B7F29F285B6002A185B /* FindIndexOfSearchedNumberChallenge */,
 				8D4300E229F15884007BDE1A /* PairedOrUnpairedNumbersChallenge */,
@@ -135,6 +140,7 @@
 				8D4300E529F15A2F007BDE1A /* PairedOrUnpairedNumbersChallengeTests.swift */,
 				8DCA3B8229F287B8002A185B /* FindIndexOfSearchedNumberChallengeTests.swift */,
 				8DCA3B8729F28A43002A185B /* CountDuplicatesChallengeTests.swift */,
+				8DCA3B8C29F28C0D002A185B /* FindAndReturnAllPairedNumbersChallengeTests.swift */,
 			);
 			path = ProblemSolvingMentoringSessionTests;
 			sourceTree = "<group>";
@@ -259,6 +265,14 @@
 			path = CountDuplicatesChallenge;
 			sourceTree = "<group>";
 		};
+		8DCA3B8B29F28BC5002A185B /* FindAndReturnAllPairedNumbersChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				8DCA3B8929F28BBF002A185B /* FindAndReturnAllPairedNumbersChallengeProtocol.swift */,
+			);
+			path = FindAndReturnAllPairedNumbersChallenge;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -379,6 +393,7 @@
 				8D4300AF29EFE367007BDE1A /* SumatorChallengeProtocol.swift in Sources */,
 				8D4300C229EFF640007BDE1A /* FindExtremumsInListChallengeProtocol.swift in Sources */,
 				8D4300DF29F15565007BDE1A /* FirstIndexOfSearchedItemChallengeProtocol.swift in Sources */,
+				8DCA3B8A29F28BBF002A185B /* FindAndReturnAllPairedNumbersChallengeProtocol.swift in Sources */,
 				8D4300CA29F016D6007BDE1A /* AbsoluteDifferenceChallengeProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,6 +404,7 @@
 			files = (
 				8D4300E129F15692007BDE1A /* FirstIndexOfSearchedItemTests.swift in Sources */,
 				8D4300BF29EFF345007BDE1A /* MinimumNumberInListChallengeTests.swift in Sources */,
+				8DCA3B8D29F28C0D002A185B /* FindAndReturnAllPairedNumbersChallengeTests.swift in Sources */,
 				8DCA3B8329F287B8002A185B /* FindIndexOfSearchedNumberChallengeTests.swift in Sources */,
 				8D4300CD29F0172A007BDE1A /* AbsoluteDifferenceChallengeTests.swift in Sources */,
 				8D4300B129EFE384007BDE1A /* SumatorChallengeTests.swift in Sources */,
