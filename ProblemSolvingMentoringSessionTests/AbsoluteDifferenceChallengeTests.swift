@@ -4,7 +4,9 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class AbsoluteDifferenceChallenge: XCTestCase {
-    private var solvings: [AbsoluteDifferenceChallengeProtocol] = []
+    private var solvings: [AbsoluteDifferenceChallengeProtocol] = [
+        AbsoluteDifferenceChallenge_Yakunin()
+    ]
     
     func test_solvings() {
         solvings.forEach { assertThat(solving: $0) }
