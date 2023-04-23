@@ -5,7 +5,8 @@ import XCTest
 
 final class SumatorChallengeTests: XCTestCase {
     private var sumators: [SumatorChallengeProtocol] = [
-        SumatorChallenge_Kharchenko()
+        SumatorChallenge_Kharchenko(),
+        SumatorChallenge_Yakunin()
     ]
     
     func test_sumators() {
