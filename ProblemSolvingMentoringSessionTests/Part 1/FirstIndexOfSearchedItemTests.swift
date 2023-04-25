@@ -11,9 +11,9 @@ final class FirstIndexOfSearchedItemTests: XCTestCase {
     }
     
     private func assertThat(solving: FirstIndexOfSearchedItemChallengeProtocol, file: StaticString = #file, line: UInt = #line) {
-        XCTAssertEqual(solving.solve(age: 23, workers: []), nil, file: file, line: line)
-        XCTAssertEqual(solving.solve(age: 26, workers: [makeWorker(age: 23), makeWorker(age: 26), makeWorker(age: 26)]), 1, file: file, line: line)
-        XCTAssertEqual(solving.solve(age: 60, workers: [makeWorker(age: 22), makeWorker(age: 59)]), nil, file: file, line: line)
+        XCTAssertEqual(solving.solve(age: 23, workers: []), nil)
+        XCTAssertEqual(solving.solve(age: 26, workers: [makeWorker(age: 23), makeWorker(age: 26), makeWorker(age: 26)]), 1)
+        XCTAssertEqual(solving.solve(age: 60, workers: [makeWorker(age: 22), makeWorker(age: 59)]), nil)
     }
     
     private func makeWorker(age: Int) -> Worker {

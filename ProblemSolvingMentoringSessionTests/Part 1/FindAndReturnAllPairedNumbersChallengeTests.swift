@@ -11,8 +11,8 @@ final class FindAndReturnAllPairedNumbersChallengeTests: XCTestCase {
     }
     
     private func assertThat(solving: FindAndReturnAllPairedNumbersChallengeProtocol, file: StaticString = #file, line: UInt = #line) {
-        XCTAssertEqual(solving.solve(list: [0, 1, 2, 3, 2]), [0, 2, 2], file: file, line: line)
-        XCTAssertEqual(solving.solve(list: []), [], file: file, line: line)
-        XCTAssertEqual(solving.solve(list: [1, 3, 5, 100]), [100], file: file, line: line)
+        XCTAssertEqual(solving.solve(list: [0, 1, 2, 3, 2]), [0, 2, 2])
+        XCTAssertEqual(solving.solve(list: []), [])
+        XCTAssertEqual(solving.solve(list: [1, 3, 5, 100]), [100])
     }
 }

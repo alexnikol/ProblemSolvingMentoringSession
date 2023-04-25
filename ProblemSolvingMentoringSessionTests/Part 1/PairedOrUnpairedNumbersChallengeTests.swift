@@ -11,10 +11,10 @@ final class PairedOrUnpairedNumbersChallengeTests: XCTestCase {
     }
     
     private func assertThat(solving: PairedOrUnpairedNumbersChallengeProtocol, file: StaticString = #file, line: UInt = #line) {
-        XCTAssertEqual(solving.solve(list: [0]), true, file: file, line: line)
-        XCTAssertEqual(solving.solve(list: [0, 1, 2]), true, file: file, line: line)
-        XCTAssertEqual(solving.solve(list: [1]), false, file: file, line: line)
-        XCTAssertEqual(solving.solve(list: []), false, file: file, line: line)
-        XCTAssertEqual(solving.solve(list: [1, 1, 2, 2]), false, file: file, line: line)
+        XCTAssertEqual(solving.solve(list: [0]), true)
+        XCTAssertEqual(solving.solve(list: [0, 1, 2]), true)
+        XCTAssertEqual(solving.solve(list: [1]), false)
+        XCTAssertEqual(solving.solve(list: []), false)
+        XCTAssertEqual(solving.solve(list: [1, 1, 2, 2]), false)
     }
 }

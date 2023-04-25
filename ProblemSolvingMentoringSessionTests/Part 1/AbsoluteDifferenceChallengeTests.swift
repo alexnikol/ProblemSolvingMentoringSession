@@ -13,10 +13,10 @@ final class AbsoluteDifferenceChallenge: XCTestCase {
     }
     
     private func assertThat(solving: AbsoluteDifferenceChallengeProtocol, file: StaticString = #file, line: UInt = #line) {
-        XCTAssertEqual(solving.solve(2), 49, file: file, line: line)
-        XCTAssertEqual(solving.solve(55), 8, file: file, line: line)
-        XCTAssertEqual(solving.solve(0), 51, file: file, line: line)
-        XCTAssertEqual(solving.solve(51), 0, file: file, line: line)
-        XCTAssertEqual(solving.solve(52), 2, file: file, line: line)
+        XCTAssertEqual(solving.solve(2), 49)
+        XCTAssertEqual(solving.solve(55), 8)
+        XCTAssertEqual(solving.solve(0), 51)
+        XCTAssertEqual(solving.solve(51), 0)
+        XCTAssertEqual(solving.solve(52), 2)
     }
 }

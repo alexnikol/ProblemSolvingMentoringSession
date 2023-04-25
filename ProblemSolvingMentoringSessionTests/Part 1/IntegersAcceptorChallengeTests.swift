@@ -13,9 +13,9 @@ final class IntegersAcceptorChallengeTests: XCTestCase {
     }
     
     private func assertThat(solving: IntegersAcceptorChallengeProtocol, file: StaticString = #file, line: UInt = #line) {
-        XCTAssertEqual(solving.solve(value1: 20, value2: 1), true, file: file, line: line)
-        XCTAssertEqual(solving.solve(value1: 10, value2: 10), true, file: file, line: line)
-        XCTAssertEqual(solving.solve(value1: -20, value2: 40), true, file: file, line: line)
-        XCTAssertEqual(solving.solve(value1: 0, value2: 19), false, file: file, line: line)
+        XCTAssertEqual(solving.solve(value1: 20, value2: 1), true)
+        XCTAssertEqual(solving.solve(value1: 10, value2: 10), true)
+        XCTAssertEqual(solving.solve(value1: -20, value2: 40), true)
+        XCTAssertEqual(solving.solve(value1: 0, value2: 19), false)
     }
 }

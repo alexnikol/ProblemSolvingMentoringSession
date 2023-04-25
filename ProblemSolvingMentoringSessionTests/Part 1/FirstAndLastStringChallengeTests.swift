@@ -11,9 +11,9 @@ final class FirstAndLastStringChallengeTests: XCTestCase {
     }
     
     private func assertThat(solving: FirstAndLastStringChallengeProtocol, file: StaticString = #file, line: UInt = #line) {
-        XCTAssertEqual(solving.solve(input: "", startCharacter: "a", endCharacter: "b"), "EMPTY", file: file, line: line)
-        XCTAssertEqual(solving.solve(input: "bc", startCharacter: "a", endCharacter: "d"), "abcd", file: file, line: line)
-        XCTAssertEqual(solving.solve(input: "", startCharacter: "", endCharacter: ""), "", file: file, line: line)
-        XCTAssertEqual(solving.solve(input: "bc", startCharacter: "", endCharacter: ""), "bc", file: file, line: line)
+        XCTAssertEqual(solving.solve(input: "", startCharacter: "a", endCharacter: "b"), "EMPTY")
+        XCTAssertEqual(solving.solve(input: "bc", startCharacter: "a", endCharacter: "d"), "abcd")
+        XCTAssertEqual(solving.solve(input: "", startCharacter: "", endCharacter: ""), "")
+        XCTAssertEqual(solving.solve(input: "bc", startCharacter: "", endCharacter: ""), "bc")
     }
 }

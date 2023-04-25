@@ -11,8 +11,8 @@ final class FindExtremumsInListChallengeTests: XCTestCase {
     }
     
     private func assertThat(solving: FindExtremumsInListChallengeProtocol, file: StaticString = #file, line: UInt = #line) {
-        XCTAssertEqual(solving.solve(list: []), .init(minimum: nil, maximum: nil), file: file, line: line)
-        XCTAssertEqual(solving.solve(list: [1]), .init(minimum: 1, maximum: 1), file: file, line: line)
-        XCTAssertEqual(solving.solve(list: [1, -1, 2, 100]), .init(minimum: -1, maximum: 100), file: file, line: line)
+        XCTAssertEqual(solving.solve(list: []), .init(minimum: nil, maximum: nil))
+        XCTAssertEqual(solving.solve(list: [1]), .init(minimum: 1, maximum: 1))
+        XCTAssertEqual(solving.solve(list: [1, -1, 2, 100]), .init(minimum: -1, maximum: 100))
     }
 }
