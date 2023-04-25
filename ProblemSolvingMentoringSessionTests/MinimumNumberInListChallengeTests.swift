@@ -4,7 +4,9 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class MinimumNumberInListChallengeTests: XCTestCase {
-    private var solvings: [MinimumNumberInListChallengeProtocol] = []
+    private var solvings: [MinimumNumberInListChallengeProtocol] = [
+        MinimumNumberInListChallenge_Yakunin()
+    ]
     
     func test_solvings() {
         solvings.forEach { assertThat(solving: $0) }
