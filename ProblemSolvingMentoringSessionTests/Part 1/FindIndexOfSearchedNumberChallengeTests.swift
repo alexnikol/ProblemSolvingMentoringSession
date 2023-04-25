@@ -11,9 +11,9 @@ final class FindIndexOfSearchedNumberChallengeTests: XCTestCase {
     }
     
     private func assertThat(solving: FindIndexOfSearchedNumberChallengeProtocol, file: StaticString = #file, line: UInt = #line) {
-        XCTAssertEqual(solving.solve(list: [0, 1, 2, 3, 4], searchedItem: 3), 3, file: file, line: line)
-        XCTAssertEqual(solving.solve(list: [], searchedItem: 10), -1, file: file, line: line)
-        XCTAssertEqual(solving.solve(list: [0, 1], searchedItem: 3), -1, file: file, line: line)
-        XCTAssertEqual(solving.solve(list: [2, 2, 2, 2, 2], searchedItem: 2), 0, file: file, line: line)
+        XCTAssertEqual(solving.solve(list: [0, 1, 2, 3, 4], searchedItem: 3), 3)
+        XCTAssertEqual(solving.solve(list: [], searchedItem: 10), -1)
+        XCTAssertEqual(solving.solve(list: [0, 1], searchedItem: 3), -1)
+        XCTAssertEqual(solving.solve(list: [2, 2, 2, 2, 2], searchedItem: 2), 0)
     }
 }
