@@ -6,7 +6,7 @@ import Foundation
 /// if input [1, 22, 22, 22, 10], result 3
 /// if input [], result 1000
 /// if input [1, 23, 2], result 1000
-/// BRANCH: check_bigger_18/YOUR_NAME
+/// BRANCH: calculate_22_in_array/YOUR_NAME
 protocol CalculateHowMany22InArrayChallengeProtocol {
     func solve(input: [Int]) -> Int
 }

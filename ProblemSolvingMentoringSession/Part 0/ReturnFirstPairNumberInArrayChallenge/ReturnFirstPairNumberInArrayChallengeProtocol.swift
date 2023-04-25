@@ -7,7 +7,7 @@ import Foundation
 /// if input [1, 1, 1, 3, 7, 200], result 200
 /// if input [], result nil
 /// if input [1, 1, 3], result nil
-/// BRANCH: check_bigger_18/YOUR_NAME
+/// BRANCH: return_first_pair/YOUR_NAME
 protocol ReturnFirstPairNumberInArrayChallengeProtocol {
     func solve(input: [Int]) -> Int?
 }

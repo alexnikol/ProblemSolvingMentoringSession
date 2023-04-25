@@ -6,7 +6,7 @@ import Foundation
 /// if input [1, 2, 10], result 10
 /// if input [1, 2, 200], result 200
 /// if input [], result nil
-/// BRANCH: check_bigger_18/YOUR_NAME
+/// BRANCH: return_last_element/YOUR_NAME
 protocol ReturnLastElementOfArrayIfExistChallengeProtocol {
     func solve(input: [Int]) -> Int?
 }

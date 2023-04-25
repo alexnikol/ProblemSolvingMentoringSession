@@ -8,7 +8,7 @@ import Foundation
 /// if input 24, result true
 /// if input 10, result false
 /// if input 30, result false
-/// BRANCH: check_bigger_18/YOUR_NAME
+/// BRANCH: check_number_in_range/YOUR_NAME
 protocol CheckNumberInRangeOf12And24ChallengeProtocol {
     func solve(input: Int) -> Bool
 }
