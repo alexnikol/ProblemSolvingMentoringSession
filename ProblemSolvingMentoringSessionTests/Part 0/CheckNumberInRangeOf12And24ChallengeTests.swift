@@ -11,10 +11,10 @@ final class CheckNumberInRangeOf12And24ChallengeTests: XCTestCase {
     }
     
     private func assertThat(sumator: CheckNumberInRangeOf12And24ChallengeProtocol, file: StaticString = #file, line: UInt = #line) {
-        XCTAssertEqual(sumator.solve(input: 12), true, file: file, line: line)
-        XCTAssertEqual(sumator.solve(input: 15), true, file: file, line: line)
-        XCTAssertEqual(sumator.solve(input: 24), true, file: file, line: line)
-        XCTAssertEqual(sumator.solve(input: 10), false, file: file, line: line)
-        XCTAssertEqual(sumator.solve(input: 30), false, file: file, line: line)
+        XCTAssertEqual(sumator.solve(input: 12), true)
+        XCTAssertEqual(sumator.solve(input: 15), true)
+        XCTAssertEqual(sumator.solve(input: 24), true)
+        XCTAssertEqual(sumator.solve(input: 10), false)
+        XCTAssertEqual(sumator.solve(input: 30), false)
     }
 }

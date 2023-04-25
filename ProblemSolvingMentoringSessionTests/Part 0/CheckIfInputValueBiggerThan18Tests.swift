@@ -11,9 +11,8 @@ final class CheckIfInputValueBiggerThan18Tests: XCTestCase {
     }
     
     private func assertThat(sumator: CheckIfInputValueBiggerThan18ChallengeProtocol, file: StaticString = #file, line: UInt = #line) {
-        XCTAssertEqual(sumator.solve(input: 2), false, file: file, line: line)
-        XCTAssertEqual(sumator.solve(input: 19), true, file: file, line: line)
-        XCTAssertEqual(sumator.solve(input: 18), false, file: file, line: line)
-        
+        XCTAssertEqual(sumator.solve(input: 2), false)
+        XCTAssertEqual(sumator.solve(input: 19), true)
+        XCTAssertEqual(sumator.solve(input: 18), false)
     }
 }

@@ -11,8 +11,8 @@ final class ReturnLastElementOfArrayIfExistChallengeTests: XCTestCase {
     }
     
     private func assertThat(sumator: ReturnLastElementOfArrayIfExistChallengeProtocol, file: StaticString = #file, line: UInt = #line) {
-        XCTAssertEqual(sumator.solve(input: [1, 2, 10]), 10, file: file, line: line)
-        XCTAssertEqual(sumator.solve(input: [1, 2, 200]), 200, file: file, line: line)
-        XCTAssertEqual(sumator.solve(input: []), nil, file: file, line: line)
+        XCTAssertEqual(sumator.solve(input: [1, 2, 10]), 10)
+        XCTAssertEqual(sumator.solve(input: [1, 2, 200]), 200)
+        XCTAssertEqual(sumator.solve(input: []), nil)
     }
 }
