@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33037CDC29F55FC300962098 /* MinimumNumberInList_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33037CDB29F55FC300962098 /* MinimumNumberInList_Kharchenko.swift */; };
 		3360950F29F1B759009EE530 /* SumatorChallenge_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3360950E29F1B759009EE530 /* SumatorChallenge_Kharchenko.swift */; };
 		33D3815C29F1446300849889 /* IntegersAcceptorChallenge_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D3815B29F1446300849889 /* IntegersAcceptorChallenge_Kharchenko.swift */; };
 		48E754BF29F5BD090067AB04 /* MinimumNumberInListChallenge_Yakunin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E754BE29F5BD090067AB04 /* MinimumNumberInListChallenge_Yakunin.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		33037CDB29F55FC300962098 /* MinimumNumberInList_Kharchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumNumberInList_Kharchenko.swift; sourceTree = "<group>"; };
 		3360950E29F1B759009EE530 /* SumatorChallenge_Kharchenko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumatorChallenge_Kharchenko.swift; sourceTree = "<group>"; };
 		33D3815B29F1446300849889 /* IntegersAcceptorChallenge_Kharchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegersAcceptorChallenge_Kharchenko.swift; sourceTree = "<group>"; };
 		48E754BE29F5BD090067AB04 /* MinimumNumberInListChallenge_Yakunin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MinimumNumberInListChallenge_Yakunin.swift; path = ProblemSolvingMentoringSession/SumatorChallenge/Solvings/MinimumNumberInListChallenge_Yakunin.swift; sourceTree = SOURCE_ROOT; };
@@ -100,6 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33037CDA29F55FAF00962098 /* Solvings */ = {
+			isa = PBXGroup;
+			children = (
+				33037CDB29F55FC300962098 /* MinimumNumberInList_Kharchenko.swift */,
+			);
+			path = Solvings;
+			sourceTree = "<group>";
+		};
 		3360950C29F1B725009EE530 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				8D4300B929EFF213007BDE1A /* MinimumNumberInListChallengeProtocol.swift */,
-				8D4300BB29EFF2FF007BDE1A /* Solvings */,
+				33037CDA29F55FAF00962098 /* Solvings */,
 			);
 			path = MinimumNumberInListChallenge;
 			sourceTree = "<group>";
@@ -415,6 +425,7 @@
 				8DCA3B8129F285EB002A185B /* FindIndexOfSearchedNumberChallengeProtocol.swift in Sources */,
 				8D4300AF29EFE367007BDE1A /* SumatorChallengeProtocol.swift in Sources */,
 				33D3815C29F1446300849889 /* IntegersAcceptorChallenge_Kharchenko.swift in Sources */,
+				33037CDC29F55FC300962098 /* MinimumNumberInList_Kharchenko.swift in Sources */,
 				8D4300C229EFF640007BDE1A /* FindExtremumsInListChallengeProtocol.swift in Sources */,
 				4891DE8929F5B61C00603081 /* SumatorChallenge_Yakunin.swift in Sources */,
 				8D4300DF29F15565007BDE1A /* FirstIndexOfSearchedItemChallengeProtocol.swift in Sources */,
