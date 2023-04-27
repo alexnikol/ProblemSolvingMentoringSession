@@ -4,7 +4,9 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class CheckNumberInRangeOf12And24ChallengeTests: XCTestCase {
-    private var sumators: [CheckNumberInRangeOf12And24ChallengeProtocol] = []
+    private var sumators: [CheckNumberInRangeOf12And24ChallengeProtocol] = [
+        CheckNumberInRangeOf12And24Challenge_Kharchenko()
+    ]
     
     func test_sumators() {
         sumators.forEach { assertThat(sumator: $0) }
