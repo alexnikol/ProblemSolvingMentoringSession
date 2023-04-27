@@ -18,15 +18,6 @@ import Foundation
 
 final class CheckIfGivenNumberPairedOrLessThan33Challenge_Yurchenko: CheckIfGivenNumberPairedOrLessThan33ChallengeProtocol {
     func solve(input: Int) -> Bool {
-        if input % 2 == 0 {
-            return true
-        } else if input == 33 {
-            return false
-        } else if input <= 33 {
-            return true
-        } else {
-            return false
-        }
-        }
+        input % 2 == 0 || input < 33 
     }
-
+}
