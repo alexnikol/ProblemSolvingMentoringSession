@@ -52,6 +52,8 @@
 		8D7D74C229FA69B500AD211F /* FoundSumOfItemsInArrayOrReturnNilChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7D74C129FA69B500AD211F /* FoundSumOfItemsInArrayOrReturnNilChallengeTests.swift */; };
 		8D7D74C529FA6AA700AD211F /* FoundAllNumberDivisableOn3ChallangeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7D74C429FA6AA700AD211F /* FoundAllNumberDivisableOn3ChallangeProtocol.swift */; };
 		8D7D74C729FA6B0E00AD211F /* FoundAllNumberDivisableOn3ChallangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7D74C629FA6B0E00AD211F /* FoundAllNumberDivisableOn3ChallangeTests.swift */; };
+		8D7D74CA29FA6C1900AD211F /* SumOfAllUnpairedNumbersAndExcept9ChallengeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7D74C929FA6C1900AD211F /* SumOfAllUnpairedNumbersAndExcept9ChallengeProtocol.swift */; };
+		8D7D74CC29FA6CB500AD211F /* SumOfAllUnpairedNumbersAndExcept9ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7D74CB29FA6CB500AD211F /* SumOfAllUnpairedNumbersAndExcept9ChallengeTests.swift */; };
 		8DCA3B8129F285EB002A185B /* FindIndexOfSearchedNumberChallengeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA3B8029F285EB002A185B /* FindIndexOfSearchedNumberChallengeProtocol.swift */; };
 		8DCA3B8329F287B8002A185B /* FindIndexOfSearchedNumberChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA3B8229F287B8002A185B /* FindIndexOfSearchedNumberChallengeTests.swift */; };
 		8DCA3B8629F289D2002A185B /* CountDuplicatesChallengeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA3B8529F289D2002A185B /* CountDuplicatesChallengeProtocol.swift */; };
@@ -117,6 +119,8 @@
 		8D7D74C129FA69B500AD211F /* FoundSumOfItemsInArrayOrReturnNilChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundSumOfItemsInArrayOrReturnNilChallengeTests.swift; sourceTree = "<group>"; };
 		8D7D74C429FA6AA700AD211F /* FoundAllNumberDivisableOn3ChallangeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundAllNumberDivisableOn3ChallangeProtocol.swift; sourceTree = "<group>"; };
 		8D7D74C629FA6B0E00AD211F /* FoundAllNumberDivisableOn3ChallangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundAllNumberDivisableOn3ChallangeTests.swift; sourceTree = "<group>"; };
+		8D7D74C929FA6C1900AD211F /* SumOfAllUnpairedNumbersAndExcept9ChallengeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfAllUnpairedNumbersAndExcept9ChallengeProtocol.swift; sourceTree = "<group>"; };
+		8D7D74CB29FA6CB500AD211F /* SumOfAllUnpairedNumbersAndExcept9ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfAllUnpairedNumbersAndExcept9ChallengeTests.swift; sourceTree = "<group>"; };
 		8DCA3B8029F285EB002A185B /* FindIndexOfSearchedNumberChallengeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindIndexOfSearchedNumberChallengeProtocol.swift; sourceTree = "<group>"; };
 		8DCA3B8229F287B8002A185B /* FindIndexOfSearchedNumberChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindIndexOfSearchedNumberChallengeTests.swift; sourceTree = "<group>"; };
 		8DCA3B8529F289D2002A185B /* CountDuplicatesChallengeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDuplicatesChallengeProtocol.swift; sourceTree = "<group>"; };
@@ -338,6 +342,7 @@
 				8D7D74BB29F80DEF00AD211F /* CheckIfGivenNumberPairedOrLessThan33ChallengeTests.swift */,
 				8D7D74C129FA69B500AD211F /* FoundSumOfItemsInArrayOrReturnNilChallengeTests.swift */,
 				8D7D74C629FA6B0E00AD211F /* FoundAllNumberDivisableOn3ChallangeTests.swift */,
+				8D7D74CB29FA6CB500AD211F /* SumOfAllUnpairedNumbersAndExcept9ChallengeTests.swift */,
 			);
 			path = "Part 0";
 			sourceTree = "<group>";
@@ -373,6 +378,7 @@
 				8D7D74B329F808E900AD211F /* CheckIfCountOfInputMoreThan5AndFirstElement10Challenge */,
 				8D7D74BE29FA5FA000AD211F /* FoundSumOfItemsInArrayOrReturnNilChallenge */,
 				8D7D74C329FA6A5700AD211F /* FoundAllNumberDivisableOn3Challange */,
+				8D7D74C829FA6BCE00AD211F /* SumOfAllUnpairedNumbersAndExcept9Challenge */,
 			);
 			path = "Part 0";
 			sourceTree = "<group>";
@@ -455,6 +461,14 @@
 				8D7D74C429FA6AA700AD211F /* FoundAllNumberDivisableOn3ChallangeProtocol.swift */,
 			);
 			path = FoundAllNumberDivisableOn3Challange;
+			sourceTree = "<group>";
+		};
+		8D7D74C829FA6BCE00AD211F /* SumOfAllUnpairedNumbersAndExcept9Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				8D7D74C929FA6C1900AD211F /* SumOfAllUnpairedNumbersAndExcept9ChallengeProtocol.swift */,
+			);
+			path = SumOfAllUnpairedNumbersAndExcept9Challenge;
 			sourceTree = "<group>";
 		};
 		8DCA3B7F29F285B6002A185B /* FindIndexOfSearchedNumberChallenge */ = {
@@ -612,6 +626,7 @@
 				8D7D74A129F8036C00AD211F /* ReturnLastElementOfArrayIfExistChallengeProtocol.swift in Sources */,
 				8D4300C229EFF640007BDE1A /* FindExtremumsInListChallengeProtocol.swift in Sources */,
 				4891DE8929F5B61C00603081 /* SumatorChallenge_Yakunin.swift in Sources */,
+				8D7D74CA29FA6C1900AD211F /* SumOfAllUnpairedNumbersAndExcept9ChallengeProtocol.swift in Sources */,
 				8D7D74AB29F805B400AD211F /* ReturnFirstPairNumberInArrayChallengeProtocol.swift in Sources */,
 				8D7D749229F7FE0B00AD211F /* AbsoluteDifferenceChallenge_Yakunin.swift in Sources */,
 				8D7D74C029FA691700AD211F /* FoundSumOfItemsInArrayOrReturnNilChallengeProtocol.swift in Sources */,
@@ -644,6 +659,7 @@
 				8D7D74B229F8080400AD211F /* CalculateHowMany22InArrayChallengeTests.swift in Sources */,
 				8D4300C729EFF7A2007BDE1A /* FindExtremumsInListChallengeTests.swift in Sources */,
 				8D4300E629F15A2F007BDE1A /* PairedOrUnpairedNumbersChallengeTests.swift in Sources */,
+				8D7D74CC29FA6CB500AD211F /* SumOfAllUnpairedNumbersAndExcept9ChallengeTests.swift in Sources */,
 				8D7D74C229FA69B500AD211F /* FoundSumOfItemsInArrayOrReturnNilChallengeTests.swift in Sources */,
 				8D7D74C729FA6B0E00AD211F /* FoundAllNumberDivisableOn3ChallangeTests.swift in Sources */,
 				8D4300DC29F146A5007BDE1A /* FirstAndLastStringChallengeTests.swift in Sources */,
