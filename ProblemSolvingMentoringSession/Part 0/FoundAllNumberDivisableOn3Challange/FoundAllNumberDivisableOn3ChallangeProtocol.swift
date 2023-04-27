@@ -6,7 +6,7 @@ import Foundation
 /// if input [1, 2, 2, 3, 6, 9, 100], result [3, 6, 9]
 /// if input [], result []
 /// if input [0], result [0]
-/// BRANCH: found_sum_or_return_nil/YOUR_NAME
+/// BRANCH: divisable_on_3/YOUR_NAME
 protocol FoundAllNumberDivisableOn3ChallangeProtocol {
     func solve(input: [Int]) -> [Int]
 }

@@ -8,7 +8,7 @@ import Foundation
 /// if input [], result 0
 /// if input [9, 9, 9], result 0
 /// if input [2, 2, 2], result 0
-/// BRANCH: found_sum_or_return_nil/YOUR_NAME
+/// BRANCH: sum_unpaired_except_9/YOUR_NAME
 protocol SumOfAllUnpairedNumbersAndExcept9ChallengeProtocol {
     func solve(input: [Int]) -> Int
 }
