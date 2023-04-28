@@ -5,7 +5,8 @@ import XCTest
 
 final class CheckIfGivenNumberPairedOrLessThan33ChallengeTests: XCTestCase {
     private var sumators: [CheckIfGivenNumberPairedOrLessThan33ChallengeProtocol] = [
-        CheckIfGivenNumberPairedOrLessThan33Challenge_Yurchenko()
+        CheckIfGivenNumberPairedOrLessThan33Challenge_Yurchenko(),
+        CheckIfGivenNumberPairedOrLessThan33Challenge_Kharchenko()
     ]
     
     func test_sumators() {

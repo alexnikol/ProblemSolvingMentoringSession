@@ -4,7 +4,9 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class FindIndexOfSearchedNumberChallengeTests: XCTestCase {
-    private var solvings: [FindIndexOfSearchedNumberChallengeProtocol] = []
+    private var solvings: [FindIndexOfSearchedNumberChallengeProtocol] = [
+        FindIndexOfSearchedNumberChallenge_Yakunin()
+    ]
     
     func test_solvings() {
         solvings.forEach { assertThat(solving: $0) }
