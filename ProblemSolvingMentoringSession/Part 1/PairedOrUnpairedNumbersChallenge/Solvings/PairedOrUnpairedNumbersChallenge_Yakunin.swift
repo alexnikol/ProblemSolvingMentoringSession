@@ -21,10 +21,6 @@ final class PairedOrUnpairedNumbersChallenge_Yakunin: PairedOrUnpairedNumbersCha
             }
         }
         
-        if pairedCont > unpairedCount {
-            return true
-        } else {
-            return false
-        }
+        return pairedCont > unpairedCount
     }
 }
