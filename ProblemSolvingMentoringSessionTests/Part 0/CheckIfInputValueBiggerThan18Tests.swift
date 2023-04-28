@@ -4,7 +4,9 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class CheckIfInputValueBiggerThan18Tests: XCTestCase {
-    private var sumators: [CheckIfInputValueBiggerThan18ChallengeProtocol] = []
+    private var sumators: [CheckIfInputValueBiggerThan18ChallengeProtocol] = [
+        CheckIfInputValueBiggerThan18Challenge_Kharchenko()
+    ]
     
     func test_sumators() {
         sumators.forEach { assertThat(sumator: $0) }
