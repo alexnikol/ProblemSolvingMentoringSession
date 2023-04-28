@@ -4,7 +4,10 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class CheckIfGivenNumberPairedOrLessThan33ChallengeTests: XCTestCase {
-    private var sumators: [CheckIfGivenNumberPairedOrLessThan33ChallengeProtocol] = []
+    private var sumators: [CheckIfGivenNumberPairedOrLessThan33ChallengeProtocol] = [
+        CheckIfGivenNumberPairedOrLessThan33Challenge_Yurchenko(),
+        CheckIfGivenNumberPairedOrLessThan33Challenge_Kharchenko()
+    ]
     
     func test_sumators() {
         sumators.forEach { assertThat(sumator: $0) }
