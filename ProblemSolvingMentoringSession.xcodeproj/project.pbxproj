@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		33037CDC29F55FC300962098 /* MinimumNumberInList_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33037CDB29F55FC300962098 /* MinimumNumberInList_Kharchenko.swift */; };
-		331B56EC29F944C700B0326F /* ReturnFirstPairNumberInArrayChallenge_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331B56EB29F944C700B0326F /* ReturnFirstPairNumberInArrayChallenge_Kharchenko.swift */; };
 		331B56EF29F983A400B0326F /* CheckIfGivenNumberPairedOrLessThan33Challenge_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331B56EE29F983A400B0326F /* CheckIfGivenNumberPairedOrLessThan33Challenge_Kharchenko.swift */; };
 		332E2F6D29F82CA3003B2BE3 /* CheckIfInputValueBiggerThan18Challenge_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332E2F6C29F82CA3003B2BE3 /* CheckIfInputValueBiggerThan18Challenge_Kharchenko.swift */; };
 		3360950F29F1B759009EE530 /* SumatorChallenge_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3360950E29F1B759009EE530 /* SumatorChallenge_Kharchenko.swift */; };
@@ -33,6 +32,7 @@
 		8D4300E129F15692007BDE1A /* FirstIndexOfSearchedItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4300E029F15692007BDE1A /* FirstIndexOfSearchedItemTests.swift */; };
 		8D4300E429F158F2007BDE1A /* PairedOrUnpairedNumbersChallengeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4300E329F158F2007BDE1A /* PairedOrUnpairedNumbersChallengeProtocol.swift */; };
 		8D4300E629F15A2F007BDE1A /* PairedOrUnpairedNumbersChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4300E529F15A2F007BDE1A /* PairedOrUnpairedNumbersChallengeTests.swift */; };
+		8D4844EF29FB9AE400307F0E /* CheckIfCountOfInputMoreThan5AndFirstElement10Challenge_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4844EE29FB9AE400307F0E /* CheckIfCountOfInputMoreThan5AndFirstElement10Challenge_Kharchenko.swift */; };
 		8D7D749229F7FE0B00AD211F /* AbsoluteDifferenceChallenge_Yakunin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7D749129F7FE0B00AD211F /* AbsoluteDifferenceChallenge_Yakunin.swift */; };
 		8D7D749429F7FE2500AD211F /* MinimumNumberInListChallenge_Yakunin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7D749329F7FE2500AD211F /* MinimumNumberInListChallenge_Yakunin.swift */; };
 		8D7D749729F7FF7A00AD211F /* CheckIfInputValueBiggerThan18ChallengeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7D749629F7FF7A00AD211F /* CheckIfInputValueBiggerThan18ChallengeProtocol.swift */; };
@@ -85,7 +85,6 @@
 
 /* Begin PBXFileReference section */
 		33037CDB29F55FC300962098 /* MinimumNumberInList_Kharchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimumNumberInList_Kharchenko.swift; sourceTree = "<group>"; };
-		331B56EB29F944C700B0326F /* ReturnFirstPairNumberInArrayChallenge_Kharchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnFirstPairNumberInArrayChallenge_Kharchenko.swift; sourceTree = "<group>"; };
 		331B56EE29F983A400B0326F /* CheckIfGivenNumberPairedOrLessThan33Challenge_Kharchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIfGivenNumberPairedOrLessThan33Challenge_Kharchenko.swift; sourceTree = "<group>"; };
 		332E2F6C29F82CA3003B2BE3 /* CheckIfInputValueBiggerThan18Challenge_Kharchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIfInputValueBiggerThan18Challenge_Kharchenko.swift; sourceTree = "<group>"; };
 		3360950E29F1B759009EE530 /* SumatorChallenge_Kharchenko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumatorChallenge_Kharchenko.swift; sourceTree = "<group>"; };
@@ -111,6 +110,7 @@
 		8D4300E029F15692007BDE1A /* FirstIndexOfSearchedItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstIndexOfSearchedItemTests.swift; sourceTree = "<group>"; };
 		8D4300E329F158F2007BDE1A /* PairedOrUnpairedNumbersChallengeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairedOrUnpairedNumbersChallengeProtocol.swift; sourceTree = "<group>"; };
 		8D4300E529F15A2F007BDE1A /* PairedOrUnpairedNumbersChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairedOrUnpairedNumbersChallengeTests.swift; sourceTree = "<group>"; };
+		8D4844EE29FB9AE400307F0E /* CheckIfCountOfInputMoreThan5AndFirstElement10Challenge_Kharchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIfCountOfInputMoreThan5AndFirstElement10Challenge_Kharchenko.swift; sourceTree = "<group>"; };
 		8D7D749129F7FE0B00AD211F /* AbsoluteDifferenceChallenge_Yakunin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbsoluteDifferenceChallenge_Yakunin.swift; sourceTree = "<group>"; };
 		8D7D749329F7FE2500AD211F /* MinimumNumberInListChallenge_Yakunin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinimumNumberInListChallenge_Yakunin.swift; sourceTree = "<group>"; };
 		8D7D749629F7FF7A00AD211F /* CheckIfInputValueBiggerThan18ChallengeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIfInputValueBiggerThan18ChallengeProtocol.swift; sourceTree = "<group>"; };
@@ -198,7 +198,6 @@
 		3360950C29F1B725009EE530 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
-				331B56EB29F944C700B0326F /* ReturnFirstPairNumberInArrayChallenge_Kharchenko.swift */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -350,6 +349,14 @@
 			path = PairedOrUnpairedNumbersChallenge;
 			sourceTree = "<group>";
 		};
+		8D4844ED29FB9ADD00307F0E /* Solvinga */ = {
+			isa = PBXGroup;
+			children = (
+				8D4844EE29FB9AE400307F0E /* CheckIfCountOfInputMoreThan5AndFirstElement10Challenge_Kharchenko.swift */,
+			);
+			path = Solvinga;
+			sourceTree = "<group>";
+		};
 		8D7D748929F7FD2900AD211F /* Part 1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -483,6 +490,7 @@
 			isa = PBXGroup;
 			children = (
 				8D7D74B429F80AF400AD211F /* CheckIfCountOfInputMoreThan5AndFirstElement10ChallengeProtocol.swift */,
+				8D4844ED29FB9ADD00307F0E /* Solvinga */,
 			);
 			path = CheckIfCountOfInputMoreThan5AndFirstElement10Challenge;
 			sourceTree = "<group>";
@@ -713,7 +721,6 @@
 				8D4300BA29EFF213007BDE1A /* MinimumNumberInListChallengeProtocol.swift in Sources */,
 				8DCA3B8129F285EB002A185B /* FindIndexOfSearchedNumberChallengeProtocol.swift in Sources */,
 				8D7D74A629F8048E00AD211F /* Return5thElemntOfArrayIfExistsChallengeProtocol.swift in Sources */,
-				331B56EC29F944C700B0326F /* ReturnFirstPairNumberInArrayChallenge_Kharchenko.swift in Sources */,
 				8D4300AF29EFE367007BDE1A /* SumatorChallengeProtocol.swift in Sources */,
 				33D3815C29F1446300849889 /* IntegersAcceptorChallenge_Kharchenko.swift in Sources */,
 				8D7D749729F7FF7A00AD211F /* CheckIfInputValueBiggerThan18ChallengeProtocol.swift in Sources */,
@@ -724,6 +731,7 @@
 				4891DE8929F5B61C00603081 /* SumatorChallenge_Yakunin.swift in Sources */,
 				8D7D74CA29FA6C1900AD211F /* SumOfAllUnpairedNumbersAndExcept9ChallengeProtocol.swift in Sources */,
 				8D7D74AB29F805B400AD211F /* ReturnFirstPairNumberInArrayChallengeProtocol.swift in Sources */,
+				8D4844EF29FB9AE400307F0E /* CheckIfCountOfInputMoreThan5AndFirstElement10Challenge_Kharchenko.swift in Sources */,
 				331B56EF29F983A400B0326F /* CheckIfGivenNumberPairedOrLessThan33Challenge_Kharchenko.swift in Sources */,
 				8D7D749229F7FE0B00AD211F /* AbsoluteDifferenceChallenge_Yakunin.swift in Sources */,
 				8D7D74C029FA691700AD211F /* FoundSumOfItemsInArrayOrReturnNilChallengeProtocol.swift in Sources */,
