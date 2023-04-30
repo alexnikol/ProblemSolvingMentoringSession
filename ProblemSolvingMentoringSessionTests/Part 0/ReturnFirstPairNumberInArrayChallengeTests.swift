@@ -5,7 +5,8 @@ import XCTest
 
 final class ReturnFirstPairNumberInArrayChallengeTests: XCTestCase {
     private var sumators: [ReturnFirstPairNumberInArrayChallengeProtocol] = [
-        ReturnFirstPairNumberInArrayChallenge_Kharchenko()
+        ReturnFirstPairNumberInArrayChallenge_Kharchenko(),
+        ReturnFirstPairNumberInArrayChallenge_Yurchenko()
     ]
     
     func test_sumators() {
