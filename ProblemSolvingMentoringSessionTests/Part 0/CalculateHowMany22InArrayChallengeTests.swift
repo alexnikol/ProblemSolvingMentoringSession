@@ -4,7 +4,9 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class CalculateHowMany22InArrayChallengeTests: XCTestCase {
-    private var sumators: [CalculateHowMany22InArrayChallengeProtocol] = []
+    private var sumators: [CalculateHowMany22InArrayChallengeProtocol] = [
+        CalculateHowMany22InArrayChallenge_Yurchenko()
+    ]
     
     func test_sumators() {
         sumators.forEach { assertThat(sumator: $0) }
