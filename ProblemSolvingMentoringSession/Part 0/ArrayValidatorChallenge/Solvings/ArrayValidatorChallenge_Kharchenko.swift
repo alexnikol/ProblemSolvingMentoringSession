@@ -2,9 +2,6 @@ import Foundation
 
 final class ArrayValidatorChallenge_Kharchenko: ArrayValidatorChallengeProtocol {
     func solve(input: [Int]) -> String {
-        /// Написать программу Swift, возвращающую проверочное сообщение о массиве со следующими правилами
-        /// если на входе есть хотя бы 2 числа 13 и больше 5, результат "PREPARED_LIST"
-        /// если в других случаях возвращается "WAITING"
         guard !input.isEmpty else { return "DISABLED" }
         var sum13 = 0
         for number in input {
@@ -21,5 +18,3 @@ final class ArrayValidatorChallenge_Kharchenko: ArrayValidatorChallengeProtocol 
         return "WAITING"
     }
 }
-
-//[13, 13, 1, 1, 1, 1]
