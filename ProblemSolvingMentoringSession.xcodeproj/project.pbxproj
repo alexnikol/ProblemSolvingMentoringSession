@@ -15,6 +15,7 @@
 		33D3815C29F1446300849889 /* IntegersAcceptorChallenge_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D3815B29F1446300849889 /* IntegersAcceptorChallenge_Kharchenko.swift */; };
 		33D8FF1129F9251C00AFEB37 /* ReturnLastElementOfArrayIfExistChallenge_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D8FF1029F9251C00AFEB37 /* ReturnLastElementOfArrayIfExistChallenge_Kharchenko.swift */; };
 		484987AA29FBDBA400D84B0D /* CountDuplicatesChallenge_Yakunin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987A929FBDBA400D84B0D /* CountDuplicatesChallenge_Yakunin.swift */; };
+		484987AD29FBDDBC00D84B0D /* PairedOrUnpairedNumbersChallenge_Yakunin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987AC29FBDDBC00D84B0D /* PairedOrUnpairedNumbersChallenge_Yakunin.swift */; };
 		4891DE8929F5B61C00603081 /* SumatorChallenge_Yakunin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4891DE8829F5B61C00603081 /* SumatorChallenge_Yakunin.swift */; };
 		48C676AF29F9680C00435A24 /* FindIndexOfSearchedNumberChallenge_Yakunin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C676AE29F9680C00435A24 /* FindIndexOfSearchedNumberChallenge_Yakunin.swift */; };
 		8D43009E29EFE30D007BDE1A /* ProblemSolvingMentoringSession.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D43009529EFE30D007BDE1A /* ProblemSolvingMentoringSession.framework */; };
@@ -96,6 +97,7 @@
 		3360950E29F1B759009EE530 /* SumatorChallenge_Kharchenko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumatorChallenge_Kharchenko.swift; sourceTree = "<group>"; };
 		33D3815B29F1446300849889 /* IntegersAcceptorChallenge_Kharchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegersAcceptorChallenge_Kharchenko.swift; sourceTree = "<group>"; };
 		33D8FF1029F9251C00AFEB37 /* ReturnLastElementOfArrayIfExistChallenge_Kharchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnLastElementOfArrayIfExistChallenge_Kharchenko.swift; sourceTree = "<group>"; };
+		484987AC29FBDDBC00D84B0D /* PairedOrUnpairedNumbersChallenge_Yakunin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairedOrUnpairedNumbersChallenge_Yakunin.swift; sourceTree = "<group>"; };
 		484987A929FBDBA400D84B0D /* CountDuplicatesChallenge_Yakunin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDuplicatesChallenge_Yakunin.swift; sourceTree = "<group>"; };
 		4891DE8829F5B61C00603081 /* SumatorChallenge_Yakunin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumatorChallenge_Yakunin.swift; sourceTree = "<group>"; };
 		48C676AE29F9680C00435A24 /* FindIndexOfSearchedNumberChallenge_Yakunin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindIndexOfSearchedNumberChallenge_Yakunin.swift; sourceTree = "<group>"; };
@@ -246,6 +248,14 @@
 			path = Solvings;
 			sourceTree = "<group>";
 		};
+		484987AB29FBDDA000D84B0D /* Solvings */ = {
+			isa = PBXGroup;
+			children = (
+				484987AC29FBDDBC00D84B0D /* PairedOrUnpairedNumbersChallenge_Yakunin.swift */,
+			);
+			path = Solvings;
+			sourceTree = "<group>";
+		};
 		484987A829FBDB5E00D84B0D /* Solvings */ = {
 			isa = PBXGroup;
 			children = (
@@ -380,6 +390,7 @@
 			isa = PBXGroup;
 			children = (
 				8D4300E329F158F2007BDE1A /* PairedOrUnpairedNumbersChallengeProtocol.swift */,
+				484987AB29FBDDA000D84B0D /* Solvings */,
 			);
 			path = PairedOrUnpairedNumbersChallenge;
 			sourceTree = "<group>";
@@ -765,6 +776,7 @@
 				8D4300D029F01ABB007BDE1A /* IntegersAcceptorChallengeProtocol.swift in Sources */,
 				8D7D74DC29FA74C200AD211F /* ReturnSumOfFirstAndLastElementChallengeProtocol.swift in Sources */,
 				8D7D74D729FA732700AD211F /* ReturnNewArrayWithExponentiatedAllItemsChallengeProtocol.swift in Sources */,
+				484987AD29FBDDBC00D84B0D /* PairedOrUnpairedNumbersChallenge_Yakunin.swift in Sources */,
 				8D7D74CF29FA6E1D00AD211F /* ArrayValidatorChallengeProtocol.swift in Sources */,
 				8D7D74B029F8072E00AD211F /* CalculateHowMany22InArrayChallengeProtocol.swift in Sources */,
 				8D4300BA29EFF213007BDE1A /* MinimumNumberInListChallengeProtocol.swift in Sources */,
