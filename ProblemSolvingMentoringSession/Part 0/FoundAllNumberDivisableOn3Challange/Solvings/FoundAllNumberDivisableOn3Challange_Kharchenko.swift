@@ -4,9 +4,9 @@ final class FoundAllNumberDivisableOn3Challange_Kharchenko: FoundAllNumberDivisa
     func solve(input: [Int]) -> [Int] {
         guard !input.isEmpty else { return [] }
         var result: [Int] = []
-        for sorting in input {
-            if sorting % 3 == 0 {
-                result.append(sorting)
+        for number in input {
+            if number % 3 == 0 {
+                result.append(number)
             }
         }
         return result
