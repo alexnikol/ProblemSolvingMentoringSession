@@ -10,8 +10,6 @@ import Foundation
 final class FindExtremumsInListChallenge_Yakunin: FindExtremumsInListChallengeProtocol {
     func solve(list: [Int]) -> FindExtremumsInListChallengeResult {
         guard !list.isEmpty else { return FindExtremumsInListChallengeResult(minimum: nil, maximum: nil) }
-        let min = list.min()
-        let max = list.max()
-        return FindExtremumsInListChallengeResult(minimum: min, maximum: max)
+        return FindExtremumsInListChallengeResult(minimum: list.min(), maximum: list.max())
     }
 }
