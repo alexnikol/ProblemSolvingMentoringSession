@@ -7,3 +7,16 @@
 //
 
 import Foundation
+final class FirstAndLastStringChallenge_Yakunin: FirstAndLastStringChallengeProtocol {
+    func solve(input: String, startCharacter: String, endCharacter: String) -> String {
+        if input.isEmpty && !startCharacter.isEmpty && !endCharacter.isEmpty {
+            return "EMPTY"
+        } else if !input.isEmpty && !startCharacter.isEmpty && !endCharacter.isEmpty {
+            return "\(startCharacter)\(input)\(endCharacter)"
+        } else if input.isEmpty && startCharacter.isEmpty && endCharacter.isEmpty {
+            return ""
+        } else {
+            return input
+        }
+    }
+}
