@@ -13,6 +13,7 @@
 		332E2F6D29F82CA3003B2BE3 /* CheckIfInputValueBiggerThan18Challenge_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332E2F6C29F82CA3003B2BE3 /* CheckIfInputValueBiggerThan18Challenge_Kharchenko.swift */; };
 		3355EB4329FFEAE300BD9A64 /* ArrayValidatorChallenge_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3355EB4229FFEAE300BD9A64 /* ArrayValidatorChallenge_Kharchenko.swift */; };
 		3360950F29F1B759009EE530 /* SumatorChallenge_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3360950E29F1B759009EE530 /* SumatorChallenge_Kharchenko.swift */; };
+		338E13262A04D22B002D7C2E /* ReturnSumOfFirstAndLastElementChallenge_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338E13252A04D22B002D7C2E /* ReturnSumOfFirstAndLastElementChallenge_Kharchenko.swift */; };
 		339F20242A0194CB00D33D0A /* CalculateHowMany22InArrayChallenge_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339F20232A0194CB00D33D0A /* CalculateHowMany22InArrayChallenge_Kharchenko.swift */; };
 		33D3815C29F1446300849889 /* IntegersAcceptorChallenge_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D3815B29F1446300849889 /* IntegersAcceptorChallenge_Kharchenko.swift */; };
 		33D8FF1129F9251C00AFEB37 /* ReturnLastElementOfArrayIfExistChallenge_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D8FF1029F9251C00AFEB37 /* ReturnLastElementOfArrayIfExistChallenge_Kharchenko.swift */; };
@@ -98,6 +99,7 @@
 		332E2F6C29F82CA3003B2BE3 /* CheckIfInputValueBiggerThan18Challenge_Kharchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIfInputValueBiggerThan18Challenge_Kharchenko.swift; sourceTree = "<group>"; };
 		3355EB4229FFEAE300BD9A64 /* ArrayValidatorChallenge_Kharchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayValidatorChallenge_Kharchenko.swift; sourceTree = "<group>"; };
 		3360950E29F1B759009EE530 /* SumatorChallenge_Kharchenko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumatorChallenge_Kharchenko.swift; sourceTree = "<group>"; };
+		338E13252A04D22B002D7C2E /* ReturnSumOfFirstAndLastElementChallenge_Kharchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnSumOfFirstAndLastElementChallenge_Kharchenko.swift; sourceTree = "<group>"; };
 		339F20232A0194CB00D33D0A /* CalculateHowMany22InArrayChallenge_Kharchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateHowMany22InArrayChallenge_Kharchenko.swift; sourceTree = "<group>"; };
 		33D3815B29F1446300849889 /* IntegersAcceptorChallenge_Kharchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegersAcceptorChallenge_Kharchenko.swift; sourceTree = "<group>"; };
 		33D8FF1029F9251C00AFEB37 /* ReturnLastElementOfArrayIfExistChallenge_Kharchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnLastElementOfArrayIfExistChallenge_Kharchenko.swift; sourceTree = "<group>"; };
@@ -240,6 +242,14 @@
 			children = (
 				3360950E29F1B759009EE530 /* SumatorChallenge_Kharchenko.swift */,
 				4891DE8829F5B61C00603081 /* SumatorChallenge_Yakunin.swift */,
+			);
+			path = Solvings;
+			sourceTree = "<group>";
+		};
+		338E13242A04D212002D7C2E /* Solvings */ = {
+			isa = PBXGroup;
+			children = (
+				338E13252A04D22B002D7C2E /* ReturnSumOfFirstAndLastElementChallenge_Kharchenko.swift */,
 			);
 			path = Solvings;
 			sourceTree = "<group>";
@@ -626,6 +636,7 @@
 			isa = PBXGroup;
 			children = (
 				8D7D74DB29FA74C200AD211F /* ReturnSumOfFirstAndLastElementChallengeProtocol.swift */,
+				338E13242A04D212002D7C2E /* Solvings */,
 			);
 			path = ReturnSumOfFirstAndLastElementChallenge;
 			sourceTree = "<group>";
@@ -808,6 +819,7 @@
 				8DCA3B8129F285EB002A185B /* FindIndexOfSearchedNumberChallengeProtocol.swift in Sources */,
 				8D7D74A629F8048E00AD211F /* Return5thElemntOfArrayIfExistsChallengeProtocol.swift in Sources */,
 				8D4300AF29EFE367007BDE1A /* SumatorChallengeProtocol.swift in Sources */,
+				338E13262A04D22B002D7C2E /* ReturnSumOfFirstAndLastElementChallenge_Kharchenko.swift in Sources */,
 				33D3815C29F1446300849889 /* IntegersAcceptorChallenge_Kharchenko.swift in Sources */,
 				8D7D749729F7FF7A00AD211F /* CheckIfInputValueBiggerThan18ChallengeProtocol.swift in Sources */,
 				33037CDC29F55FC300962098 /* MinimumNumberInList_Kharchenko.swift in Sources */,

@@ -4,7 +4,9 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class ReturnSumOfFirstAndLastElementChallengeTests: XCTestCase {
-    private var sumators: [ReturnSumOfFirstAndLastElementChallengeProtocol] = []
+    private var sumators: [ReturnSumOfFirstAndLastElementChallengeProtocol] = [
+        ReturnSumOfFirstAndLastElementChallenge_Kharchenko()
+    ]
     
     func test_sumators() {
         sumators.forEach { assertThat(sumator: $0) }
