@@ -4,7 +4,9 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class ReturnNewArrayWithExponentiatedAllItemsChallengeTests: XCTestCase {
-    private var sumators: [ReturnNewArrayWithExponentiatedAllItemsChallengeProtocol] = []
+    private var sumators: [ReturnNewArrayWithExponentiatedAllItemsChallengeProtocol] = [
+        ReturnNewArrayWithExponentiatedAllItemsChallenge_Yurchenko()
+    ]
     
     func test_sumators() {
         sumators.forEach { assertThat(sumator: $0) }
