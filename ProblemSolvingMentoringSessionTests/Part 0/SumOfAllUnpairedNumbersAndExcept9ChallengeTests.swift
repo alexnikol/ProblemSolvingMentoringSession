@@ -5,6 +5,7 @@ import XCTest
 
 final class SumOfAllUnpairedNumbersAndExcept9ChallengeTests: XCTestCase {
     private var sumators: [SumOfAllUnpairedNumbersAndExcept9ChallengeProtocol] = [
+        SumOfAllUnpairedNumbersAndExcept9Challenge_Yurchenko(),
         SumOfAllUnpairedNumbersAndExcept9Challenge_Kharchenko()
     ]
     
