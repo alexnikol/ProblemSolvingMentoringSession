@@ -4,7 +4,9 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class SumOfAllUnpairedNumbersAndExcept9ChallengeTests: XCTestCase {
-    private var sumators: [SumOfAllUnpairedNumbersAndExcept9ChallengeProtocol] = []
+    private var sumators: [SumOfAllUnpairedNumbersAndExcept9ChallengeProtocol] = [
+        SumOfAllUnpairedNumbersAndExcept9Challenge_Kharchenko()
+    ]
     
     func test_sumators() {
         sumators.forEach { assertThat(sumator: $0) }
