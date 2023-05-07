@@ -15,13 +15,10 @@ import Foundation
 final class ReturnSumOfFirstAndLastElementChallenge_Yurchenko: ReturnSumOfFirstAndLastElementChallengeProtocol {
     func solve(input: [Int]) -> Int {
         guard !input.isEmpty else { return 0 }
-        var result = 0
         if input.count < 2 {
             return -200
         } else {
             return input[0] + input[input.count - 1]
         }
-        return result
     }
 }
-        
