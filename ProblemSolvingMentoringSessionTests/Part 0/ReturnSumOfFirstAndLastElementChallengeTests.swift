@@ -5,6 +5,7 @@ import XCTest
 
 final class ReturnSumOfFirstAndLastElementChallengeTests: XCTestCase {
     private var sumators: [ReturnSumOfFirstAndLastElementChallengeProtocol] = [
+        ReturnSumOfFirstAndLastElementChallenge_Yurchenko(),
         ReturnSumOfFirstAndLastElementChallenge_Kharchenko()
     ]
     
