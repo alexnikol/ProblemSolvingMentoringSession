@@ -9,7 +9,6 @@ final class ReturnSumOfFirstAndLastElementChallenge_Kharchenko: ReturnSumOfFirst
         } else {
             result = input.first! + input.last!
         }
-        
         return result
     }
 }
