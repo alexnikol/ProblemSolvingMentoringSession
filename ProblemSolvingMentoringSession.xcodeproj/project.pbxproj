@@ -32,6 +32,7 @@
 		48A784342A042DAF00E26E67 /* IntegersAcceptorChallenge_Yakunin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A784332A042DAF00E26E67 /* IntegersAcceptorChallenge_Yakunin.swift */; };
 		48A7843A2A04594C00E26E67 /* FirstIndexOfSearchedItemChallenge_Yakunin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A784392A04594C00E26E67 /* FirstIndexOfSearchedItemChallenge_Yakunin.swift */; };
 		48C676AF29F9680C00435A24 /* FindIndexOfSearchedNumberChallenge_Yakunin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C676AE29F9680C00435A24 /* FindIndexOfSearchedNumberChallenge_Yakunin.swift */; };
+		48E1E5322A0ABFE0000C905C /* FirstAndLastStringChallenge_Yakunin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E1E5312A0ABFE0000C905C /* FirstAndLastStringChallenge_Yakunin.swift */; };
 		8D3C8F3F2A080DA500683658 /* ReturnSumOfFirstAndLastElementChallenge_Yurchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3C8F3E2A080DA500683658 /* ReturnSumOfFirstAndLastElementChallenge_Yurchenko.swift */; };
 		8D3C8F412A080DE800683658 /* SumOfAllUnpairedNumbersAndExcept9Challenge_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3C8F402A080DE800683658 /* SumOfAllUnpairedNumbersAndExcept9Challenge_Kharchenko.swift */; };
 		8D43009E29EFE30D007BDE1A /* ProblemSolvingMentoringSession.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D43009529EFE30D007BDE1A /* ProblemSolvingMentoringSession.framework */; };
@@ -132,6 +133,7 @@
 		48A784332A042DAF00E26E67 /* IntegersAcceptorChallenge_Yakunin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegersAcceptorChallenge_Yakunin.swift; sourceTree = "<group>"; };
 		48A784392A04594C00E26E67 /* FirstIndexOfSearchedItemChallenge_Yakunin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstIndexOfSearchedItemChallenge_Yakunin.swift; sourceTree = "<group>"; };
 		48C676AE29F9680C00435A24 /* FindIndexOfSearchedNumberChallenge_Yakunin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindIndexOfSearchedNumberChallenge_Yakunin.swift; sourceTree = "<group>"; };
+		48E1E5312A0ABFE0000C905C /* FirstAndLastStringChallenge_Yakunin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstAndLastStringChallenge_Yakunin.swift; sourceTree = "<group>"; };
 		8D3C8F3E2A080DA500683658 /* ReturnSumOfFirstAndLastElementChallenge_Yurchenko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReturnSumOfFirstAndLastElementChallenge_Yurchenko.swift; sourceTree = "<group>"; };
 		8D3C8F402A080DE800683658 /* SumOfAllUnpairedNumbersAndExcept9Challenge_Kharchenko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SumOfAllUnpairedNumbersAndExcept9Challenge_Kharchenko.swift; sourceTree = "<group>"; };
 		8D43009529EFE30D007BDE1A /* ProblemSolvingMentoringSession.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProblemSolvingMentoringSession.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -382,6 +384,14 @@
 			path = Solvings;
 			sourceTree = "<group>";
 		};
+		48E1E5302A0ABFE0000C905C /* Solvings */ = {
+			isa = PBXGroup;
+			children = (
+				48E1E5312A0ABFE0000C905C /* FirstAndLastStringChallenge_Yakunin.swift */,
+			);
+			path = Solvings;
+			sourceTree = "<group>";
+		};
 		8D3C8F3D2A080DA500683658 /* Solvings */ = {
 			isa = PBXGroup;
 			children = (
@@ -486,7 +496,7 @@
 			isa = PBXGroup;
 			children = (
 				8D4300D929F139E1007BDE1A /* FirstAndLastStringChallengeProtocol.swift */,
-				1CA542E92A0ABE07002B1CCF /* Solvings */,
+				48E1E5302A0ABFE0000C905C /* Solvings */,
 			);
 			path = FirstAndLastStringChallenge;
 			sourceTree = "<group>";
@@ -901,6 +911,7 @@
 				8D4300DA29F139E1007BDE1A /* FirstAndLastStringChallengeProtocol.swift in Sources */,
 				1CA542EB2A0ABE07002B1CCF /* FirstAndLastStringChallenge_Yakunin.swift in Sources */,
 				48A7843A2A04594C00E26E67 /* FirstIndexOfSearchedItemChallenge_Yakunin.swift in Sources */,
+				48E1E5322A0ABFE0000C905C /* FirstAndLastStringChallenge_Yakunin.swift in Sources */,
 				8D4300D029F01ABB007BDE1A /* IntegersAcceptorChallengeProtocol.swift in Sources */,
 				3355EB4329FFEAE300BD9A64 /* ArrayValidatorChallenge_Kharchenko.swift in Sources */,
 				8D7D74DC29FA74C200AD211F /* ReturnSumOfFirstAndLastElementChallengeProtocol.swift in Sources */,
