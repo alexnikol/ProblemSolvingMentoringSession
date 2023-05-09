@@ -5,7 +5,8 @@ import XCTest
 
 final class IntegersAcceptorChallengeTests: XCTestCase {
     private var solvings: [IntegersAcceptorChallengeProtocol] = [
-        IntegersAcceptorChallenge_Kharchenko()
+        IntegersAcceptorChallenge_Kharchenko(),
+        IntegersAcceptorChallenge_Yakunin()
     ]
     
     func test_solvings() {

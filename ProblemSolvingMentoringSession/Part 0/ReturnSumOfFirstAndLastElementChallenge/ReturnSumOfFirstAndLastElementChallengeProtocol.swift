@@ -2,7 +2,7 @@
 
 import Foundation
 
-/// Write a Swift program returing new array with exponentiated all members. If array empty - return 0
+/// Write a Swift program add the first and last element of an array. If array empty - return 0
 /// if array has less than 2 elemnts = return -200
 /// if input [0, 1, 2, 3], result 3
 /// if input [100, 1, 2, 300], result 400
