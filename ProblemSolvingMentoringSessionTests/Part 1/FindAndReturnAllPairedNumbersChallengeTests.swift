@@ -4,7 +4,10 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class FindAndReturnAllPairedNumbersChallengeTests: XCTestCase {
-    private var solvings: [FindAndReturnAllPairedNumbersChallengeProtocol] = []
+    private var solvings: [FindAndReturnAllPairedNumbersChallengeProtocol] = [
+        FindAndReturnAllPairedNumbersChallenge_Yakunin(),
+        FindAndReturnAllPairedNumbersChallenge_Kharchenko()
+    ]
     
     func test_solvings() {
         solvings.forEach { assertThat(solving: $0) }

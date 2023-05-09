@@ -4,7 +4,9 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class FirstAndLastStringChallengeTests: XCTestCase {
-    private var solvings: [FirstAndLastStringChallengeProtocol] = []
+    private var solvings: [FirstAndLastStringChallengeProtocol] = [
+        FirstAndLastStringChallenge_Yakunin()
+    ]
     
     func test_solvings() {
         solvings.forEach { assertThat(solving: $0) }
