@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C50541D2A0AAC2A00E8D287 /* ReturnNewArrayWithExponentiatedAllItemsChallenge_Yurchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C50541C2A0AAC2A00E8D287 /* ReturnNewArrayWithExponentiatedAllItemsChallenge_Yurchenko.swift */; };
+		1C5054202A0AAC8D00E8D287 /* FirstAndLastStringChallenge_Yakunin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C50541F2A0AAC8D00E8D287 /* FirstAndLastStringChallenge_Yakunin.swift */; };
 		1C7D32972A0B658F00131F91 /* ArrayValidatorChallenge_Yurchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D32952A0B658E00131F91 /* ArrayValidatorChallenge_Yurchenko.swift */; };
 		1C7D32982A0B658F00131F91 /* ArrayValidatorChallenge_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D32962A0B658E00131F91 /* ArrayValidatorChallenge_Kharchenko.swift */; };
 		1C7D329B2A0B65DD00131F91 /* FirstAndLastStringChallenge_Yakunin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D329A2A0B65DD00131F91 /* FirstAndLastStringChallenge_Yakunin.swift */; };
@@ -112,6 +114,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C50541C2A0AAC2A00E8D287 /* ReturnNewArrayWithExponentiatedAllItemsChallenge_Yurchenko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReturnNewArrayWithExponentiatedAllItemsChallenge_Yurchenko.swift; sourceTree = "<group>"; };
+		1C50541F2A0AAC8D00E8D287 /* FirstAndLastStringChallenge_Yakunin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstAndLastStringChallenge_Yakunin.swift; sourceTree = "<group>"; };
 		1C7D32962A0B658E00131F91 /* ArrayValidatorChallenge_Kharchenko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayValidatorChallenge_Kharchenko.swift; sourceTree = "<group>"; };
 		1C7D329A2A0B65DD00131F91 /* FirstAndLastStringChallenge_Yakunin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstAndLastStringChallenge_Yakunin.swift; sourceTree = "<group>"; };
 		1C636C2529FAFA720026FB04 /* ReturnLastElementOfArrayIfExistChallenge_Yurchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnLastElementOfArrayIfExistChallenge_Yurchenko.swift; sourceTree = "<group>"; };
@@ -271,6 +275,7 @@
 		3302A58A2A0252BB009BEAA4 /* Solvings */ = {
 			isa = PBXGroup;
 			children = (
+				1C50541C2A0AAC2A00E8D287 /* ReturnNewArrayWithExponentiatedAllItemsChallenge_Yurchenko.swift */,
 				3302A58B2A0252CB009BEAA4 /* ReturnNewArrayWithExponentiatedAllItemsChallenge_Kharchenko.swift */,
 			);
 			path = Solvings;
@@ -930,6 +935,7 @@
 				1CA542EB2A0ABE07002B1CCF /* FirstAndLastStringChallenge_Yakunin.swift in Sources */,
 				48A7843A2A04594C00E26E67 /* FirstIndexOfSearchedItemChallenge_Yakunin.swift in Sources */,
 				48E1E5322A0ABFE0000C905C /* FirstAndLastStringChallenge_Yakunin.swift in Sources */,
+				1C5054202A0AAC8D00E8D287 /* FirstAndLastStringChallenge_Yakunin.swift in Sources */,
 				8D4300D029F01ABB007BDE1A /* IntegersAcceptorChallengeProtocol.swift in Sources */,
 				8D7D74DC29FA74C200AD211F /* ReturnSumOfFirstAndLastElementChallengeProtocol.swift in Sources */,
 				8D7D74D729FA732700AD211F /* ReturnNewArrayWithExponentiatedAllItemsChallengeProtocol.swift in Sources */,
@@ -958,6 +964,7 @@
 				48A784342A042DAF00E26E67 /* IntegersAcceptorChallenge_Yakunin.swift in Sources */,
 				8D7D74CA29FA6C1900AD211F /* SumOfAllUnpairedNumbersAndExcept9ChallengeProtocol.swift in Sources */,
 				8D7D74AB29F805B400AD211F /* ReturnFirstPairNumberInArrayChallengeProtocol.swift in Sources */,
+				1C50541D2A0AAC2A00E8D287 /* ReturnNewArrayWithExponentiatedAllItemsChallenge_Yurchenko.swift in Sources */,
 				8D3C8F412A080DE800683658 /* SumOfAllUnpairedNumbersAndExcept9Challenge_Kharchenko.swift in Sources */,
 				8D4844EF29FB9AE400307F0E /* CheckIfCountOfInputMoreThan5AndFirstElement10Challenge_Kharchenko.swift in Sources */,
 				8D7D749229F7FE0B00AD211F /* AbsoluteDifferenceChallenge_Yakunin.swift in Sources */,
