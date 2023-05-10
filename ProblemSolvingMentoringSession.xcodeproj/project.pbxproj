@@ -97,6 +97,7 @@
 		8DCA3B8829F28A43002A185B /* CountDuplicatesChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA3B8729F28A43002A185B /* CountDuplicatesChallengeTests.swift */; };
 		8DCA3B8A29F28BBF002A185B /* FindAndReturnAllPairedNumbersChallengeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA3B8929F28BBF002A185B /* FindAndReturnAllPairedNumbersChallengeProtocol.swift */; };
 		8DCA3B8D29F28C0D002A185B /* FindAndReturnAllPairedNumbersChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCA3B8C29F28C0D002A185B /* FindAndReturnAllPairedNumbersChallengeTests.swift */; };
+		9D37A4BD2A0BA23000D100CB /* CountDuplicatesChallenge_Bilyk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D37A4BC2A0BA23000D100CB /* CountDuplicatesChallenge_Bilyk.swift */; };
 		9D6EE8DE2A0AD7AC00E97386 /* FindAndReturnAllPairedNumbersChallenge_Bilyk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6EE8DD2A0AD7AC00E97386 /* FindAndReturnAllPairedNumbersChallenge_Bilyk.swift */; };
 /* End PBXBuildFile section */
 
@@ -201,6 +202,7 @@
 		8DCA3B8729F28A43002A185B /* CountDuplicatesChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDuplicatesChallengeTests.swift; sourceTree = "<group>"; };
 		8DCA3B8929F28BBF002A185B /* FindAndReturnAllPairedNumbersChallengeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAndReturnAllPairedNumbersChallengeProtocol.swift; sourceTree = "<group>"; };
 		8DCA3B8C29F28C0D002A185B /* FindAndReturnAllPairedNumbersChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAndReturnAllPairedNumbersChallengeTests.swift; sourceTree = "<group>"; };
+		9D37A4BC2A0BA23000D100CB /* CountDuplicatesChallenge_Bilyk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDuplicatesChallenge_Bilyk.swift; sourceTree = "<group>"; };
 		9D6EE8DD2A0AD7AC00E97386 /* FindAndReturnAllPairedNumbersChallenge_Bilyk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAndReturnAllPairedNumbersChallenge_Bilyk.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -348,6 +350,7 @@
 			children = (
 				484987A929FBDBA400D84B0D /* CountDuplicatesChallenge_Yakunin.swift */,
 				33DCCF942A09248000FC22A7 /* CountDuplicatesChallenge_Kharchenko.swift */,
+				9D37A4BC2A0BA23000D100CB /* CountDuplicatesChallenge_Bilyk.swift */,
 			);
 			path = Solvings;
 			sourceTree = "<group>";
@@ -907,6 +910,7 @@
 				1C7D32972A0B658F00131F91 /* (null) in Sources */,
 				48C676AF29F9680C00435A24 /* FindIndexOfSearchedNumberChallenge_Yakunin.swift in Sources */,
 				8D4300E429F158F2007BDE1A /* PairedOrUnpairedNumbersChallengeProtocol.swift in Sources */,
+				9D37A4BD2A0BA23000D100CB /* CountDuplicatesChallenge_Bilyk.swift in Sources */,
 				8D7D74F329FAADCA00AD211F /* CheckNumberInRangeOf12And24Challenge_Kharchenko.swift in Sources */,
 				8DCA3B8629F289D2002A185B /* CountDuplicatesChallengeProtocol.swift in Sources */,
 				8D4300DA29F139E1007BDE1A /* FirstAndLastStringChallengeProtocol.swift in Sources */,
