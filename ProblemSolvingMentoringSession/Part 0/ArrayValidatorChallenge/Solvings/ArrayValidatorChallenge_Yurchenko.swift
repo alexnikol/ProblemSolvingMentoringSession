@@ -9,7 +9,6 @@ import Foundation
 final class ArrayValidatorChallenge_Yurchenko: ArrayValidatorChallengeProtocol {
     func solve(input: [Int]) -> String {
         guard !input.isEmpty else { return "DISABLED" }
-        var result = String()
         var count13 = 0
         for item in input {
             if item == 13 {
