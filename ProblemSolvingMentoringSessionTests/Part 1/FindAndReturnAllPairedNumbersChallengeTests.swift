@@ -5,7 +5,9 @@ import XCTest
 
 final class FindAndReturnAllPairedNumbersChallengeTests: XCTestCase {
     private var solvings: [FindAndReturnAllPairedNumbersChallengeProtocol] = [
-        FindAndReturnAllPairedNumbersChallenge_Yakunin()
+        FindAndReturnAllPairedNumbersChallenge_Yakunin(),
+        FindAndReturnAllPairedNumbersChallenge_Kharchenko(),
+        FindAndReturnAllPairedNumbersChallenge_Bilyk()
     ]
     
     func test_solvings() {
