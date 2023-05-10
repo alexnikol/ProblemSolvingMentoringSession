@@ -5,7 +5,8 @@ import XCTest
 
 final class CheckIfInputValueBiggerThan18Tests: XCTestCase {
     private var sumators: [CheckIfInputValueBiggerThan18ChallengeProtocol] = [
-        CheckIfInputValueBiggerThan18Challenge_Kharchenko()
+        CheckIfInputValueBiggerThan18Challenge_Kharchenko(),
+        CheckIfInputValueBiggerThan18Challenge_Yurchenko()
     ]
     
     func test_sumators() {

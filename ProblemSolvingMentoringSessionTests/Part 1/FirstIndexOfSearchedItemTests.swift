@@ -4,7 +4,10 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class FirstIndexOfSearchedItemTests: XCTestCase {
-    private var solvings: [FirstIndexOfSearchedItemChallengeProtocol] = []
+    private var solvings: [FirstIndexOfSearchedItemChallengeProtocol] = [
+        FirstIndexOfSearchedItemChallenge_Yakunin(),
+        FirstIndexOfSearchedItemChallenge_Kharchenko()
+    ]
     
     func test_solvings() {
         solvings.forEach { assertThat(solving: $0) }
