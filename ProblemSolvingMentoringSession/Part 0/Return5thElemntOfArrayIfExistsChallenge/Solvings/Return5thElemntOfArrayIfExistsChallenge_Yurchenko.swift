@@ -10,13 +10,10 @@ import Foundation
  
 final class Return5thElemntOfArrayIfExistsChallenge_Yurchenko: Return5thElemntOfArrayIfExistsChallengeProtocol {
     func solve(input: [Int]) -> Int? {
-        guard !input.isEmpty else { return nil }
-        var result: Int?
-        for item in input {
-            if item == input.index(before: 5) {
-                return item
-            }
+        if input.count > 5 {
+            return input[5]
+        } else {
+            return nil
         }
-        return result
     }
 }
