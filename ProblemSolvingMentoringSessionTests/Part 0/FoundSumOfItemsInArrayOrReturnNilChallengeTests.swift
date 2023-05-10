@@ -5,7 +5,8 @@ import XCTest
 
 final class FoundSumOfItemsInArrayOrReturnNilChallengeTests: XCTestCase {
     private var sumators: [FoundSumOfItemsInArrayOrReturnNilChallengeProtocol] = [
-        FoundSumOfItemsInArrayOrReturnNilChallenge_Yurchenko ()
+        FoundSumOfItemsInArrayOrReturnNilChallenge_Yurchenko(),
+        FoundSumOfItemsInArrayOrReturnNilChallenge_Kharchenko()
     ]
     
     func test_sumators() {
