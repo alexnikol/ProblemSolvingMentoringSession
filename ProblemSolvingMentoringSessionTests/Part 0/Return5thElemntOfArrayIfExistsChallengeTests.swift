@@ -5,7 +5,7 @@ import XCTest
 
 final class Return5thElemntOfArrayIfExistsChallengeTests: XCTestCase {
     private var sumators: [Return5thElemntOfArrayIfExistsChallengeProtocol] = [
-        Return5thElemntOfArrayIfExistsChallenge_Yurchenko()
+        Return5thElemntOfArrayIfExistsChallenge_Kharchenko()
     ]
     
     func test_sumators() {
