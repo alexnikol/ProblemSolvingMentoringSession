@@ -10,7 +10,7 @@ final class CountDuplicatesChallenge_Bilyk: CountDuplicatesChallengeProtocol {
         
         for i in list {
             if i == searchedItem {
-                count = count + 1
+                count += 1
             }
         }
         return count
