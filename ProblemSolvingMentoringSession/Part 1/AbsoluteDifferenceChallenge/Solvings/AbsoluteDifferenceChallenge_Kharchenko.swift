@@ -8,10 +8,9 @@ final class AbsoluteDifferenceChallenge_Kharchenko: AbsoluteDifferenceChallengeP
             return 51
         }
         if n != 0 && n < 51 {
-            result = 51 - n
+            result = abs(51 - n)
         } else {
-            result = n - 51
-            result *= 2
+            result = abs(n - 51) * 2
         }
         return result
     }
