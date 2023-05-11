@@ -5,6 +5,7 @@ import XCTest
 
 final class CalculateHowMany22InArrayChallengeTests: XCTestCase {
     private var sumators: [CalculateHowMany22InArrayChallengeProtocol] = [
+        CalculateHowMany22InArrayChallenge_Yurchenko(),
         CalculateHowMany22InArrayChallenge_Kharchenko()
     ]
     

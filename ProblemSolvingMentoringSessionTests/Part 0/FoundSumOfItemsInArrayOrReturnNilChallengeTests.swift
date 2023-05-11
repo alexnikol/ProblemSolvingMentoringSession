@@ -5,6 +5,7 @@ import XCTest
 
 final class FoundSumOfItemsInArrayOrReturnNilChallengeTests: XCTestCase {
     private var sumators: [FoundSumOfItemsInArrayOrReturnNilChallengeProtocol] = [
+        FoundSumOfItemsInArrayOrReturnNilChallenge_Yurchenko(),
         FoundSumOfItemsInArrayOrReturnNilChallenge_Kharchenko()
     ]
     
