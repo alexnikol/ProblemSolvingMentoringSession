@@ -5,7 +5,8 @@ import XCTest
 
 final class PairedOrUnpairedNumbersChallengeTests: XCTestCase {
     private var solvings: [PairedOrUnpairedNumbersChallengeProtocol] = [
-        PairedOrUnpairedNumbersChallenge_Yakunin()
+        PairedOrUnpairedNumbersChallenge_Yakunin(),
+        PairedOrUnpairedNumbersChallenge_Kharchenko()
     ]
     
     func test_solvings() {

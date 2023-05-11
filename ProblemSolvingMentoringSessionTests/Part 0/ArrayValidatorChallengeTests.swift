@@ -5,7 +5,7 @@ import XCTest
 
 final class ArrayValidatorChallengeTests: XCTestCase {
     private var sumators: [ArrayValidatorChallengeProtocol] = [
-        ArrayValidatorChallenge_Kharchenko()
+        ArrayValidatorChallenge_Yurchenko()
     ]
     
     func test_sumators() {

@@ -5,7 +5,8 @@ import XCTest
 
 final class FindIndexOfSearchedNumberChallengeTests: XCTestCase {
     private var solvings: [FindIndexOfSearchedNumberChallengeProtocol] = [
-        FindIndexOfSearchedNumberChallenge_Yakunin()
+        FindIndexOfSearchedNumberChallenge_Yakunin(),
+        FindIndexOfSearchedNumberChallenge_Kharchenko()
     ]
     
     func test_solvings() {

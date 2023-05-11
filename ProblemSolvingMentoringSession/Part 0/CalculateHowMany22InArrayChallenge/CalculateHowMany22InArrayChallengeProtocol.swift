@@ -10,3 +10,5 @@ import Foundation
 protocol CalculateHowMany22InArrayChallengeProtocol {
     func solve(input: [Int]) -> Int
 }
+
+
