@@ -4,7 +4,11 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class CountDuplicatesChallengeTests: XCTestCase {
-    private var solvings: [CountDuplicatesChallengeProtocol] = []
+    private var solvings: [CountDuplicatesChallengeProtocol] = [
+        CountDuplicatesChallenge_Yakunin(),
+        CountDuplicatesChallenge_Kharchenko(),
+        CountDuplicatesChallenge_Bilyk()
+    ]
     
     func test_solvings() {
         solvings.forEach { assertThat(solving: $0) }
