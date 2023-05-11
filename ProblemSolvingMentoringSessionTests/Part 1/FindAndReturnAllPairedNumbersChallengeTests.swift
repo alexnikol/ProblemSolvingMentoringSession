@@ -7,7 +7,8 @@ final class FindAndReturnAllPairedNumbersChallengeTests: XCTestCase {
     private var solvings: [FindAndReturnAllPairedNumbersChallengeProtocol] = [
         FindAndReturnAllPairedNumbersChallenge_Yakunin(),
         FindAndReturnAllPairedNumbersChallenge_Kharchenko(),
-        FindAndReturnAllPairedNumbersChallenge_Bilyk()
+        FindAndReturnAllPairedNumbersChallenge_Bilyk(),
+        FindAndReturnAllPairedNumbersChallenge_Yurchenko()
     ]
     
     func test_solvings() {
