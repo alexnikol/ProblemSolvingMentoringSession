@@ -5,7 +5,8 @@ import XCTest
 
 final class FindExtremumsInListChallengeTests: XCTestCase {
     private var solvings: [FindExtremumsInListChallengeProtocol] = [
-        FindExtremumsInListChallenge_Yakunin()
+        FindExtremumsInListChallenge_Yakunin(),
+        FindExtremumsInListChallenge_Kharchenko()
     ]
     
     func test_solvings() {
