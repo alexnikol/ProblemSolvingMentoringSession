@@ -14,6 +14,7 @@
 		1C7D32A52A0B77ED00131F91 /* ArrayValidatorChallenge_Yurchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D32A42A0B77ED00131F91 /* ArrayValidatorChallenge_Yurchenko.swift */; };
 		1C7D32A72A0B780700131F91 /* ReturnLastElementOfArrayIfExistChallenge_Yurchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D32A62A0B780700131F91 /* ReturnLastElementOfArrayIfExistChallenge_Yurchenko.swift */; };
 		1C7D32AE2A0B7DA800131F91 /* Return5thElemntOfArrayIfExistsChallenge_Yurchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D32AD2A0B7DA800131F91 /* Return5thElemntOfArrayIfExistsChallenge_Yurchenko.swift */; };
+		1C7D32B82A0C171F00131F91 /* CheckIfCountOfInputMoreThan5AndFirstElement10Challenge_Yurchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D32B72A0C171F00131F91 /* CheckIfCountOfInputMoreThan5AndFirstElement10Challenge_Yurchenko.swift */; };
 		1C7D32B02A0C13DF00131F91 /* CalculateHowMany22InArrayChallenge_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D32AF2A0C13DF00131F91 /* CalculateHowMany22InArrayChallenge_Kharchenko.swift */; };
 		1C7D32B22A0C13F900131F91 /* CalculateHowMany22InArrayChallenge_Yurchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D32B12A0C13F900131F91 /* CalculateHowMany22InArrayChallenge_Yurchenko.swift */; };
 		1C7D32B42A0C150300131F91 /* Return5thElemntOfArrayIfExistsChallenge_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D32B32A0C150300131F91 /* Return5thElemntOfArrayIfExistsChallenge_Kharchenko.swift */; };
@@ -127,6 +128,7 @@
 		1C7D32A42A0B77ED00131F91 /* ArrayValidatorChallenge_Yurchenko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayValidatorChallenge_Yurchenko.swift; sourceTree = "<group>"; };
 		1C7D32A62A0B780700131F91 /* ReturnLastElementOfArrayIfExistChallenge_Yurchenko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReturnLastElementOfArrayIfExistChallenge_Yurchenko.swift; sourceTree = "<group>"; };
 		1C7D32AD2A0B7DA800131F91 /* Return5thElemntOfArrayIfExistsChallenge_Yurchenko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Return5thElemntOfArrayIfExistsChallenge_Yurchenko.swift; sourceTree = "<group>"; };
+		1C7D32B72A0C171F00131F91 /* CheckIfCountOfInputMoreThan5AndFirstElement10Challenge_Yurchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIfCountOfInputMoreThan5AndFirstElement10Challenge_Yurchenko.swift; sourceTree = "<group>"; };
 		1C7D32B92A0C194100131F91 /* FoundSumOfItemsInArrayOrReturnNilChallenge_Yurchenko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundSumOfItemsInArrayOrReturnNilChallenge_Yurchenko.swift; sourceTree = "<group>"; };
 		1C7D32AF2A0C13DF00131F91 /* CalculateHowMany22InArrayChallenge_Kharchenko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateHowMany22InArrayChallenge_Kharchenko.swift; sourceTree = "<group>"; };
 		1C7D32B12A0C13F900131F91 /* CalculateHowMany22InArrayChallenge_Yurchenko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateHowMany22InArrayChallenge_Yurchenko.swift; sourceTree = "<group>"; };
@@ -550,6 +552,7 @@
 			isa = PBXGroup;
 			children = (
 				8D4844EE29FB9AE400307F0E /* CheckIfCountOfInputMoreThan5AndFirstElement10Challenge_Kharchenko.swift */,
+				1C7D32B72A0C171F00131F91 /* CheckIfCountOfInputMoreThan5AndFirstElement10Challenge_Yurchenko.swift */,
 			);
 			path = Solvinga;
 			sourceTree = "<group>";
@@ -972,6 +975,7 @@
 				339F202A2A01A91400D33D0A /* FoundAllNumberDivisableOn3Challange_Kharchenko.swift in Sources */,
 				4891DE8929F5B61C00603081 /* SumatorChallenge_Yakunin.swift in Sources */,
 				336057572A097563000CCFC8 /* ReturnSumOfFirstAndLastElementChallenge_Kharchenko.swift in Sources */,
+				1C7D32B82A0C171F00131F91 /* CheckIfCountOfInputMoreThan5AndFirstElement10Challenge_Yurchenko.swift in Sources */,
 				48A784342A042DAF00E26E67 /* IntegersAcceptorChallenge_Yakunin.swift in Sources */,
 				8D7D74CA29FA6C1900AD211F /* SumOfAllUnpairedNumbersAndExcept9ChallengeProtocol.swift in Sources */,
 				8D7D74AB29F805B400AD211F /* ReturnFirstPairNumberInArrayChallengeProtocol.swift in Sources */,
