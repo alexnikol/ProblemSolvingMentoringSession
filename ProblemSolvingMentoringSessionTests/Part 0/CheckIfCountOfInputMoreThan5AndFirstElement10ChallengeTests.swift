@@ -5,7 +5,8 @@ import XCTest
 
 final class CheckIfCountOfInputMoreThan5AndFirstElement10ChallengeTests: XCTestCase {
     private var sumators: [CheckIfCountOfInputMoreThan5AndFirstElement10ChallengeProtocol] = [
-        CheckIfCountOfInputMoreThan5AndFirstElement10Challenge_Kharchenko()
+        CheckIfCountOfInputMoreThan5AndFirstElement10Challenge_Kharchenko(),
+        CheckIfCountOfInputMoreThan5AndFirstElement10Challenge_Yurchenko()
     ]
     
     func test_sumators() {
