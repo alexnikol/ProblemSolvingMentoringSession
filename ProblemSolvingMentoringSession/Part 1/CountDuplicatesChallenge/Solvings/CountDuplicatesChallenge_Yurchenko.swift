@@ -13,7 +13,7 @@ final class CountDuplicatesChallenge_Yurchenko: CountDuplicatesChallengeProtocol
         var result = 0
         for item in list {
             if item == searchedItem {
-                result = item
+                result += 1
             }
         }
         return result
