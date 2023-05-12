@@ -11,7 +11,6 @@ final class FoundSumOfItemsInArrayOrReturnNilChallenge_Yurchenko: FoundSumOfItem
     func solve(input: [Int]) -> Int? {
         guard !input.isEmpty else { return nil }
         var result = 0
-        
         for item in input {
             result += item
         }
