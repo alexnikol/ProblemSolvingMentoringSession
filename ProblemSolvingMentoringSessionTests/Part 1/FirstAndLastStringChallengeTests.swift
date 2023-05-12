@@ -5,7 +5,8 @@ import XCTest
 
 final class FirstAndLastStringChallengeTests: XCTestCase {
     private var solvings: [FirstAndLastStringChallengeProtocol] = [
-        FirstAndLastStringChallenge_Yakunin()
+        FirstAndLastStringChallenge_Yakunin(),
+        FirstAndLastStringChallenge_Kharchenko()
     ]
     
     func test_solvings() {

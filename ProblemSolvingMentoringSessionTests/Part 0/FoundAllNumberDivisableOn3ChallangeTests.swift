@@ -5,6 +5,7 @@ import XCTest
 
 final class FoundAllNumberDivisableOn3ChallangeTests: XCTestCase {
     private var sumators: [FoundAllNumberDivisableOn3ChallangeProtocol] = [
+        FoundAllNumberDivisableOn3Challange_Yurchenko(),
         FoundAllNumberDivisableOn3Challange_Kharchenko()
     ]
     
