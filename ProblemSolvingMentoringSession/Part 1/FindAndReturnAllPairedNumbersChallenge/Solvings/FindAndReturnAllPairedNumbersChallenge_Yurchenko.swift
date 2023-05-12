@@ -12,7 +12,7 @@ final class FindAndReturnAllPairedNumbersChallenge_Yurchenko: FindAndReturnAllPa
         var result = [Int]()
         for item in list {
             if item % 2 == 0 {
-            result.append(item)
+                result.append(item)
             }
         }
         return result
