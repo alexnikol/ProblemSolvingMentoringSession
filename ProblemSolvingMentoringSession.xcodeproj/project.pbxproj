@@ -22,6 +22,7 @@
 		1C7D32BA2A0C194100131F91 /* FoundSumOfItemsInArrayOrReturnNilChallenge_Yurchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7D32B92A0C194100131F91 /* FoundSumOfItemsInArrayOrReturnNilChallenge_Yurchenko.swift */; };
 		1C89A74A29F92F7900B71E9D /* CheckIfGivenNumberPairedOrLessThan33Challenge_Yurchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C89A74929F92F7900B71E9D /* CheckIfGivenNumberPairedOrLessThan33Challenge_Yurchenko.swift */; };
 		1CA542E82A0ABD97002B1CCF /* CheckIfInputValueBiggerThan18Challenge_Yurchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA542E72A0ABD97002B1CCF /* CheckIfInputValueBiggerThan18Challenge_Yurchenko.swift */; };
+		1CB059962A0CF148004EFF50 /* FindIndexOfSearchedNumberChallenge_Yurchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB059952A0CF148004EFF50 /* FindIndexOfSearchedNumberChallenge_Yurchenko.swift */; };
 		1CB059942A0CEFAA004EFF50 /* CountDuplicatesChallenge_Yurchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB059932A0CEFAA004EFF50 /* CountDuplicatesChallenge_Yurchenko.swift */; };
 		1CFC0B4F2A01903700EF4933 /* SumOfAllUnpairedNumbersAndExcept9Challenge_Yurchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFC0B4E2A01903700EF4933 /* SumOfAllUnpairedNumbersAndExcept9Challenge_Yurchenko.swift */; };
 		3302A58C2A0252CB009BEAA4 /* ReturnNewArrayWithExponentiatedAllItemsChallenge_Kharchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3302A58B2A0252CB009BEAA4 /* ReturnNewArrayWithExponentiatedAllItemsChallenge_Kharchenko.swift */; };
@@ -154,6 +155,7 @@
 		1C7D32B92A0C194100131F91 /* FoundSumOfItemsInArrayOrReturnNilChallenge_Yurchenko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundSumOfItemsInArrayOrReturnNilChallenge_Yurchenko.swift; sourceTree = "<group>"; };
 		1C89A74929F92F7900B71E9D /* CheckIfGivenNumberPairedOrLessThan33Challenge_Yurchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIfGivenNumberPairedOrLessThan33Challenge_Yurchenko.swift; sourceTree = "<group>"; };
 		1CA542E72A0ABD97002B1CCF /* CheckIfInputValueBiggerThan18Challenge_Yurchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIfInputValueBiggerThan18Challenge_Yurchenko.swift; sourceTree = "<group>"; };
+		1CB059952A0CF148004EFF50 /* FindIndexOfSearchedNumberChallenge_Yurchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindIndexOfSearchedNumberChallenge_Yurchenko.swift; sourceTree = "<group>"; };
 		1CB059932A0CEFAA004EFF50 /* CountDuplicatesChallenge_Yurchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDuplicatesChallenge_Yurchenko.swift; sourceTree = "<group>"; };
 		1CFC0B4E2A01903700EF4933 /* SumOfAllUnpairedNumbersAndExcept9Challenge_Yurchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOfAllUnpairedNumbersAndExcept9Challenge_Yurchenko.swift; sourceTree = "<group>"; };
 		3302A58B2A0252CB009BEAA4 /* ReturnNewArrayWithExponentiatedAllItemsChallenge_Kharchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnNewArrayWithExponentiatedAllItemsChallenge_Kharchenko.swift; sourceTree = "<group>"; };
@@ -448,6 +450,7 @@
 			children = (
 				48C676AE29F9680C00435A24 /* FindIndexOfSearchedNumberChallenge_Yakunin.swift */,
 				334033F12A096622001D0EA8 /* FindIndexOfSearchedNumberChallenge_Kharchenko.swift */,
+				1CB059952A0CF148004EFF50 /* FindIndexOfSearchedNumberChallenge_Yurchenko.swift */,
 			);
 			path = Solvings;
 			sourceTree = "<group>";
@@ -1040,6 +1043,9 @@
 				1CB0598A2A0CDC20004EFF50 /* Return5thElemntOfArrayIfExistsChallenge_Kharchenko.swift in Sources */,
 				3360950F29F1B759009EE530 /* SumatorChallenge_Kharchenko.swift in Sources */,
 				8D4844F129FB9E6E00307F0E /* CheckIfGivenNumberPairedOrLessThan33Challenge_Kharchenko.swift in Sources */,
+				1C7D32B22A0C13F900131F91 /* CalculateHowMany22InArrayChallenge_Yurchenko.swift in Sources */,
+				1C7D32A72A0B780700131F91 /* ReturnLastElementOfArrayIfExistChallenge_Yurchenko.swift in Sources */,
+				1CB059962A0CF148004EFF50 /* FindIndexOfSearchedNumberChallenge_Yurchenko.swift in Sources */,
 				33DCCF952A09248000FC22A7 /* CountDuplicatesChallenge_Kharchenko.swift in Sources */,
 				1CB059862A0CDBA2004EFF50 /* ReturnNewArrayWithExponentiatedAllItemsChallenge_Kharchenko.swift in Sources */,
 				8D7D749C29F801D200AD211F /* CheckNumberInRangeOf12And24ChallengeProtocol.swift in Sources */,
