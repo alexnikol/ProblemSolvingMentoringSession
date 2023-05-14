@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1C7D32972A0B658F00131F91 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		1C9100C42A114A8700E8351B /* IntegersAcceptorChallenge_Yurchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9100C32A114A8700E8351B /* IntegersAcceptorChallenge_Yurchenko.swift */; };
 		1CB0596A2A0CD98B004EFF50 /* FoundAllNumberDivisableOn3Challange_Yurchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB059692A0CD98B004EFF50 /* FoundAllNumberDivisableOn3Challange_Yurchenko.swift */; };
 		1CB0596C2A0CDA00004EFF50 /* ArrayValidatorChallenge_Yurchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0596B2A0CDA00004EFF50 /* ArrayValidatorChallenge_Yurchenko.swift */; };
 		1CB0596F2A0CDA25004EFF50 /* CalculateHowMany22InArrayChallenge_Yurchenko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0596D2A0CDA25004EFF50 /* CalculateHowMany22InArrayChallenge_Yurchenko.swift */; };
@@ -126,6 +127,7 @@
 
 /* Begin PBXFileReference section */
 		1C7D32962A0B658E00131F91 /* ArrayValidatorChallenge_Kharchenko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayValidatorChallenge_Kharchenko.swift; sourceTree = "<group>"; };
+		1C9100C32A114A8700E8351B /* IntegersAcceptorChallenge_Yurchenko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegersAcceptorChallenge_Yurchenko.swift; sourceTree = "<group>"; };
 		1CB059692A0CD98B004EFF50 /* FoundAllNumberDivisableOn3Challange_Yurchenko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoundAllNumberDivisableOn3Challange_Yurchenko.swift; sourceTree = "<group>"; };
 		1CB0596B2A0CDA00004EFF50 /* ArrayValidatorChallenge_Yurchenko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayValidatorChallenge_Yurchenko.swift; sourceTree = "<group>"; };
 		1CB0596D2A0CDA25004EFF50 /* CalculateHowMany22InArrayChallenge_Yurchenko.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateHowMany22InArrayChallenge_Yurchenko.swift; sourceTree = "<group>"; };
@@ -363,6 +365,7 @@
 			children = (
 				33D3815B29F1446300849889 /* IntegersAcceptorChallenge_Kharchenko.swift */,
 				48A784332A042DAF00E26E67 /* IntegersAcceptorChallenge_Yakunin.swift */,
+				1C9100C32A114A8700E8351B /* IntegersAcceptorChallenge_Yurchenko.swift */,
 			);
 			path = Solvings;
 			sourceTree = "<group>";
@@ -1008,6 +1011,7 @@
 				8DCA3B8A29F28BBF002A185B /* FindAndReturnAllPairedNumbersChallengeProtocol.swift in Sources */,
 				8D4844F429FBA1F700307F0E /* FindAndReturnAllPairedNumbersChallenge_Yakunin.swift in Sources */,
 				8D7D749429F7FE2500AD211F /* MinimumNumberInListChallenge_Yakunin.swift in Sources */,
+				1C9100C42A114A8700E8351B /* IntegersAcceptorChallenge_Yurchenko.swift in Sources */,
 				1CB0598A2A0CDC20004EFF50 /* Return5thElemntOfArrayIfExistsChallenge_Kharchenko.swift in Sources */,
 				3360950F29F1B759009EE530 /* SumatorChallenge_Kharchenko.swift in Sources */,
 				8D4844F129FB9E6E00307F0E /* CheckIfGivenNumberPairedOrLessThan33Challenge_Kharchenko.swift in Sources */,
