@@ -7,7 +7,8 @@ final class PairedOrUnpairedNumbersChallengeTests: XCTestCase {
     private var solvings: [PairedOrUnpairedNumbersChallengeProtocol] = [
         PairedOrUnpairedNumbersChallenge_Yakunin(),
         PairedOrUnpairedNumbersChallenge_Kharchenko(),
-        PairedOrUnpairedNumbersChallenge_Bilyk()
+        PairedOrUnpairedNumbersChallenge_Bilyk(),
+        PairedOrUnpairedNumbersChallenge_Yurchenko()
     ]
     
     func test_solvings() {
