@@ -5,7 +5,8 @@ import XCTest
 
 final class CheckNumberInRangeOf12And24ChallengeTests: XCTestCase {
     private var sumators: [CheckNumberInRangeOf12And24ChallengeProtocol] = [
-        CheckNumberInRangeOf12And24Challenge_Kharchenko()
+        CheckNumberInRangeOf12And24Challenge_Kharchenko(),
+        CheckNumberInRangeOf12And24Challenge_Yurchenko()
     ]
     
     func test_sumators() {

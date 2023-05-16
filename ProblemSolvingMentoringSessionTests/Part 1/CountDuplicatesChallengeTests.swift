@@ -6,7 +6,9 @@ import XCTest
 final class CountDuplicatesChallengeTests: XCTestCase {
     private var solvings: [CountDuplicatesChallengeProtocol] = [
         CountDuplicatesChallenge_Yakunin(),
-        CountDuplicatesChallenge_Kharchenko()
+        CountDuplicatesChallenge_Kharchenko(),
+        CountDuplicatesChallenge_Bilyk(),
+        CountDuplicatesChallenge_Yurchenko()
     ]
     
     func test_solvings() {
