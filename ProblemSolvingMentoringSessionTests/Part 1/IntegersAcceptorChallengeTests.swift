@@ -6,6 +6,7 @@ import XCTest
 final class IntegersAcceptorChallengeTests: XCTestCase {
     private var solvings: [IntegersAcceptorChallengeProtocol] = [
         IntegersAcceptorChallenge_Kharchenko(),
+        IntegersAcceptorChallenge_Yurchenko(),
         IntegersAcceptorChallenge_Yakunin(),
         IntegersAcceptorChallenge_Bilyk()
     ]
