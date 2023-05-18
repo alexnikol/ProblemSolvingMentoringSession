@@ -7,6 +7,7 @@ final class SumatorChallengeTests: XCTestCase {
     private var sumators: [SumatorChallengeProtocol] = [
         SumatorChallenge_Kharchenko(),
         SumatorChallenge_Yakunin(),
+        SumatorChallenge_Yurchenko(),
         SumatorChallenge_Bilyk()
     ]
     
