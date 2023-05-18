@@ -6,6 +6,7 @@ import XCTest
 final class FindIndexOfSearchedNumberChallengeTests: XCTestCase {
     private var solvings: [FindIndexOfSearchedNumberChallengeProtocol] = [
         FindIndexOfSearchedNumberChallenge_Yakunin(),
+        FindIndexOfSearchedNumberChallenge_Yurchenko(),
         FindIndexOfSearchedNumberChallenge_Kharchenko(),
         FindIndexOfSearchedNumberChallenge_Bilyk()
     ]
