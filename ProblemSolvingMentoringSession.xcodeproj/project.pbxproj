@@ -123,6 +123,8 @@
 		D716D88A2A175420009E492F /* ReturnSumSearchedNumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D716D8892A175420009E492F /* ReturnSumSearchedNumbersTests.swift */; };
 		D716D88D2A1755AD009E492F /* CheckCountOrExtremumProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D716D88C2A1755AD009E492F /* CheckCountOrExtremumProtocol.swift */; };
 		D716D88F2A175623009E492F /* CheckCountOrExtremumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D716D88E2A175623009E492F /* CheckCountOrExtremumTests.swift */; };
+		D716D8932A17574C009E492F /* CheckIfSumOfPairedNumberGreaterThanUnPairedProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D716D8922A17574C009E492F /* CheckIfSumOfPairedNumberGreaterThanUnPairedProtocol.swift */; };
+		D716D8952A1757E6009E492F /* CheckIfSumOfPairedNumberGreaterThanUnPairedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D716D8942A1757E6009E492F /* CheckIfSumOfPairedNumberGreaterThanUnPairedTests.swift */; };
 		D7B797CC2A15FE500073F933 /* ReturnListOfItemWithPairedIndexesGreaterThan5Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B797CB2A15FE500073F933 /* ReturnListOfItemWithPairedIndexesGreaterThan5Protocol.swift */; };
 		D7B797CE2A160B990073F933 /* ReturnListOfItemWithPairedIndexesGreaterThan5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B797CD2A160B990073F933 /* ReturnListOfItemWithPairedIndexesGreaterThan5Tests.swift */; };
 /* End PBXBuildFile section */
@@ -255,6 +257,8 @@
 		D716D8892A175420009E492F /* ReturnSumSearchedNumbersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnSumSearchedNumbersTests.swift; sourceTree = "<group>"; };
 		D716D88C2A1755AD009E492F /* CheckCountOrExtremumProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCountOrExtremumProtocol.swift; sourceTree = "<group>"; };
 		D716D88E2A175623009E492F /* CheckCountOrExtremumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCountOrExtremumTests.swift; sourceTree = "<group>"; };
+		D716D8922A17574C009E492F /* CheckIfSumOfPairedNumberGreaterThanUnPairedProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIfSumOfPairedNumberGreaterThanUnPairedProtocol.swift; sourceTree = "<group>"; };
+		D716D8942A1757E6009E492F /* CheckIfSumOfPairedNumberGreaterThanUnPairedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIfSumOfPairedNumberGreaterThanUnPairedTests.swift; sourceTree = "<group>"; };
 		D7B797CB2A15FE500073F933 /* ReturnListOfItemWithPairedIndexesGreaterThan5Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnListOfItemWithPairedIndexesGreaterThan5Protocol.swift; sourceTree = "<group>"; };
 		D7B797CD2A160B990073F933 /* ReturnListOfItemWithPairedIndexesGreaterThan5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnListOfItemWithPairedIndexesGreaterThan5Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -879,12 +883,21 @@
 			path = CheckCountOrExtremum;
 			sourceTree = "<group>";
 		};
+		D716D8912A1756E5009E492F /* CheckIfSumOfPairedNumberGreaterThanUnPaired */ = {
+			isa = PBXGroup;
+			children = (
+				D716D8922A17574C009E492F /* CheckIfSumOfPairedNumberGreaterThanUnPairedProtocol.swift */,
+			);
+			path = CheckIfSumOfPairedNumberGreaterThanUnPaired;
+			sourceTree = "<group>";
+		};
 		D7B797C82A15FDD00073F933 /* Part 2 */ = {
 			isa = PBXGroup;
 			children = (
 				D7B797CA2A15FE140073F933 /* ReturnListOfItemWithPairedIndexesGreaterThan5 */,
 				D716D8862A1752E0009E492F /* ReturnSumSearchedNumbers */,
 				D716D88B2A17554D009E492F /* CheckCountOrExtremum */,
+				D716D8912A1756E5009E492F /* CheckIfSumOfPairedNumberGreaterThanUnPaired */,
 			);
 			path = "Part 2";
 			sourceTree = "<group>";
@@ -895,6 +908,7 @@
 				D7B797CD2A160B990073F933 /* ReturnListOfItemWithPairedIndexesGreaterThan5Tests.swift */,
 				D716D8892A175420009E492F /* ReturnSumSearchedNumbersTests.swift */,
 				D716D88E2A175623009E492F /* CheckCountOrExtremumTests.swift */,
+				D716D8942A1757E6009E492F /* CheckIfSumOfPairedNumberGreaterThanUnPairedTests.swift */,
 			);
 			path = "Part 2";
 			sourceTree = "<group>";
@@ -1106,6 +1120,7 @@
 				9D37A4D02A0C3D2D00D100CB /* IntegersAcceptorChallenge_Bilyk.swift in Sources */,
 				8D4300CA29F016D6007BDE1A /* AbsoluteDifferenceChallengeProtocol.swift in Sources */,
 				1CB0597A2A0CDAD6004EFF50 /* CheckIfGivenNumberPairedOrLessThan33Challenge_Yurchenko.swift in Sources */,
+				D716D8932A17574C009E492F /* CheckIfSumOfPairedNumberGreaterThanUnPairedProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1129,6 +1144,7 @@
 				8D7D74D129FA6EF900AD211F /* ArrayValidatorChallengeTests.swift in Sources */,
 				8DCA3B8329F287B8002A185B /* FindIndexOfSearchedNumberChallengeTests.swift in Sources */,
 				8D4300CD29F0172A007BDE1A /* AbsoluteDifferenceChallengeTests.swift in Sources */,
+				D716D8952A1757E6009E492F /* CheckIfSumOfPairedNumberGreaterThanUnPairedTests.swift in Sources */,
 				8D4300B129EFE384007BDE1A /* SumatorChallengeTests.swift in Sources */,
 				8D4300D229F01F28007BDE1A /* IntegersAcceptorChallengeTests.swift in Sources */,
 				8D7D74B229F8080400AD211F /* CalculateHowMany22InArrayChallengeTests.swift in Sources */,
