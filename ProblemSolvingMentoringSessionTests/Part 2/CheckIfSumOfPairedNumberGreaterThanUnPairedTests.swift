@@ -12,7 +12,9 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class CheckIfSumOfPairedNumberGreaterThanUnPairedTests: XCTestCase {
-    private var solvings: [CheckIfSumOfPairedNumberGreaterThanUnPairedProtocol] = []
+    private var solvings: [CheckIfSumOfPairedNumberGreaterThanUnPairedProtocol] = [
+        CheckIfSumOfPairedNumberGreaterThanUnPaired_Kharchenko()
+    ]
     
     func test_solvings() {
         solvings.forEach { assertThat(solving: $0) }
