@@ -8,14 +8,12 @@ import Foundation
 final class CheckCountOrExtremum_Yurchenko: CheckCountOrExtremumProtocol {
     func solve(list: [Int]) -> Bool {
         guard !list.isEmpty else { return false }
-        var countResult = 0
         var maxValue = 0
         for item in list {
-            countResult += 1
             if item > maxValue {
                 maxValue = item
             }
         }
-       return countResult > maxValue
+        return list.count > maxValue
         }
     }
