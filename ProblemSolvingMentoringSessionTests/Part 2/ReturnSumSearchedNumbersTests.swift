@@ -10,7 +10,9 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class ReturnSumSearchedNumbersTests: XCTestCase {
-    private var solvings: [ReturnSumSearchedNumbersProtocol] = []
+    private var solvings: [ReturnSumSearchedNumbersProtocol] = [
+        ReturnSumSearchedNumbers_Kharchenko()
+    ]
     
     func test_solvings() {
         solvings.forEach { assertThat(solving: $0) }
