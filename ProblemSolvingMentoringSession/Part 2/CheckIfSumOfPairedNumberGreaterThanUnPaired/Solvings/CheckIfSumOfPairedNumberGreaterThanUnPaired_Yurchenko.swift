@@ -18,7 +18,7 @@ final class CheckIfSumOfPairedNumberGreaterThanUnPaired_Yurchenko: CheckIfSumOfP
         for item in list {
             if item % 2 == 0 {
                 pairedSum += item
-            } else if item % 2 != 0 {
+            } else {
                 unpairedSum += item
             }
         }
