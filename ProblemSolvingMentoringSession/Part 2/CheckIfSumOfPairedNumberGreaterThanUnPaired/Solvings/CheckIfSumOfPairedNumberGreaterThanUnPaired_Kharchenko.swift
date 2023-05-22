@@ -13,10 +13,6 @@ final class CheckIfSumOfPairedNumberGreaterThanUnPaired_Kharchenko: CheckIfSumOf
                 unpairedSum += number
             }
         }
-        if pairedSum > unpairedSum {
-            return true
-        } else {
-            return false
-        }
+        return pairedSum > unpairedSum
     }
 }
