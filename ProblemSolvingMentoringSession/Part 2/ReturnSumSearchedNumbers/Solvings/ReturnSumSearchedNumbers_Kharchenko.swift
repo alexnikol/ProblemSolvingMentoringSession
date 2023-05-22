@@ -6,10 +6,8 @@ final class ReturnSumSearchedNumbers_Kharchenko: ReturnSumSearchedNumbersProtoco
         var resultSum = Int()
         
         for number in list {
-            if number == 1 {
-                resultSum += 1
-            } else if number == 3 {
-                resultSum += 3
+            if number == 1 || number == 3 {
+                resultSum += number
             }
         }
         return resultSum
