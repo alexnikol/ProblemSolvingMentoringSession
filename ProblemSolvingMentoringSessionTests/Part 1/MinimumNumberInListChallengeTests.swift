@@ -6,7 +6,8 @@ import XCTest
 final class MinimumNumberInListChallengeTests: XCTestCase {
     private var solvings: [MinimumNumberInListChallengeProtocol] = [
         MinimumNumberInList_Kharchenko(),
-        MinimumNumberInListChallenge_Bilyk()
+        MinimumNumberInListChallenge_Bilyk(),
+        MinimumNumberInListChallenge_Yakunin()
     ]
     
     func test_solvings() {
