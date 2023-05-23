@@ -6,7 +6,9 @@ import XCTest
 final class FirstIndexOfSearchedItemTests: XCTestCase {
     private var solvings: [FirstIndexOfSearchedItemChallengeProtocol] = [
         FirstIndexOfSearchedItemChallenge_Yakunin(),
-        FirstIndexOfSearchedItemChallenge_Kharchenko()
+        FirstIndexOfSearchedItemChallenge_Kharchenko(),
+        FirstIndexOfSearchedItemChallenge_Bilyk(),
+        FirstIndexOfSearchedItemChallenge_Yurchenko()
     ]
     
     func test_solvings() {
