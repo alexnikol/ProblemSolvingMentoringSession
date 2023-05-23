@@ -10,7 +10,9 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class CheckCountOrExtremumTests: XCTestCase {
-    private var solvings: [CheckCountOrExtremumProtocol] = []
+    private var solvings: [CheckCountOrExtremumProtocol] = [
+    CheckCountOrExtremum_Yurchenko()
+    ]
     
     func test_solvings() {
         solvings.forEach { assertThat(solving: $0) }
