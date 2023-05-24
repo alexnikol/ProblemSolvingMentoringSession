@@ -5,7 +5,9 @@ import XCTest
 
 final class AbsoluteDifferenceChallenge: XCTestCase {
     private var solvings: [AbsoluteDifferenceChallengeProtocol] = [
-        AbsoluteDifferenceChallenge_Yakunin()
+        AbsoluteDifferenceChallenge_Yakunin(),
+        AbsoluteDifferenceChallenge_Kharchenko(),
+        AbsoluteDifferenceChallenge_Yurchenko()
     ]
     
     func test_solvings() {
