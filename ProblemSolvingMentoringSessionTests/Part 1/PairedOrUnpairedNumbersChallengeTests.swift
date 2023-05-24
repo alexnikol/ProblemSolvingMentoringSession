@@ -4,7 +4,11 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class PairedOrUnpairedNumbersChallengeTests: XCTestCase {
-    private var solvings: [PairedOrUnpairedNumbersChallengeProtocol] = []
+    private var solvings: [PairedOrUnpairedNumbersChallengeProtocol] = [
+        PairedOrUnpairedNumbersChallenge_Yakunin(),
+        PairedOrUnpairedNumbersChallenge_Kharchenko(),
+        PairedOrUnpairedNumbersChallenge_Bilyk()
+    ]
     
     func test_solvings() {
         solvings.forEach { assertThat(solving: $0) }

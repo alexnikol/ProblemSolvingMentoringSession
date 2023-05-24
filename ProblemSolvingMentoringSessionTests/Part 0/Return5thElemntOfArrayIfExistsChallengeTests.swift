@@ -4,7 +4,10 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class Return5thElemntOfArrayIfExistsChallengeTests: XCTestCase {
-    private var sumators: [Return5thElemntOfArrayIfExistsChallengeProtocol] = []
+    private var sumators: [Return5thElemntOfArrayIfExistsChallengeProtocol] = [
+        Return5thElemntOfArrayIfExistsChallenge_Kharchenko(),
+        Return5thElemntOfArrayIfExistsChallenge_Yurchenko()
+    ]
     
     func test_sumators() {
         sumators.forEach { assertThat(sumator: $0) }

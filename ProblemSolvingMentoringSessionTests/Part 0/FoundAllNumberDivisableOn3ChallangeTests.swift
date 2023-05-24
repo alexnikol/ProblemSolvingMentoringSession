@@ -4,7 +4,10 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class FoundAllNumberDivisableOn3ChallangeTests: XCTestCase {
-    private var sumators: [FoundAllNumberDivisableOn3ChallangeProtocol] = []
+    private var sumators: [FoundAllNumberDivisableOn3ChallangeProtocol] = [
+        FoundAllNumberDivisableOn3Challange_Yurchenko(),
+        FoundAllNumberDivisableOn3Challange_Kharchenko()
+    ]
     
     func test_sumators() {
         sumators.forEach { assertThat(sumator: $0) }

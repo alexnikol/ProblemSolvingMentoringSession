@@ -4,7 +4,11 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class FindExtremumsInListChallengeTests: XCTestCase {
-    private var solvings: [FindExtremumsInListChallengeProtocol] = []
+    private var solvings: [FindExtremumsInListChallengeProtocol] = [
+        FindExtremumsInListChallenge_Yakunin(),
+        FindExtremumsInListChallenge_Kharchenko(), 
+        FindExtremumsInListChallenge_Bilyk()
+    ]
     
     func test_solvings() {
         solvings.forEach { assertThat(solving: $0) }
