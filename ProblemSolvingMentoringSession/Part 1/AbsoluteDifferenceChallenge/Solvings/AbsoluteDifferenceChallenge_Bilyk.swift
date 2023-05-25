@@ -4,16 +4,16 @@ import Foundation
 
 final class AbsoluteDifferenceChallenge_Bilyk: AbsoluteDifferenceChallengeProtocol {
     func solve(_ n: Int) -> Int {
-        let secondValue = 51
-        var value = 0
+        var result = Int()
         
-        if n > secondValue {
-            value = (n - secondValue) * 2
-        } else if n == 0 {
-            value = 51
-        } else {
-            value = (n - secondValue) * -1
+        if n == 0 {
+            return 51
         }
-        return value
+        if n != 0 && n < 51 {
+            result = abs(51 - n)
+        } else {
+            result = abs(n - 51) * 2
+        }
+        return result
     }
 }
