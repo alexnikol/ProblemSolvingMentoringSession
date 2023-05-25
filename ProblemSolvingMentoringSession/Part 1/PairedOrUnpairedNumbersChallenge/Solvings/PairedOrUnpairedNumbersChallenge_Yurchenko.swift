@@ -10,7 +10,9 @@
 /// If list is empty, than answer should be false
 
 import Foundation
+
 final class PairedOrUnpairedNumbersChallenge_Yurchenko: PairedOrUnpairedNumbersChallengeProtocol {
+    
     func solve(list: [Int]) -> Bool {
         guard !list.isEmpty else { return false }
         var pairedNumber = 0
@@ -18,14 +20,10 @@ final class PairedOrUnpairedNumbersChallenge_Yurchenko: PairedOrUnpairedNumbersC
         for number in list {
             if number % 2 == 0 {
                 pairedNumber += 1
-            } else if number % 2 != 0 {
+            } else {
                 unpairedNumber += 1
             }
-            return pairedNumber > unpairedNumber
         }
-        if pairedNumber >= unpairedNumber {
-            return true
-        } else {
-        }
+        return pairedNumber > unpairedNumber
     }
 }
