@@ -6,10 +6,11 @@
 //  Copyright © 2023 Almost Engineer. All rights reserved.
 //// Find the minimum value in the given array
 /// function should return nil if array is empty
-
 import Foundation
+
 final class MinimumNumberInListChallenge_Yurchenko: MinimumNumberInListChallengeProtocol {
     func solve(list: [Int]) -> Int? {
+        
         guard !list.isEmpty else { return nil }
         
         var minNumb = list[0]
