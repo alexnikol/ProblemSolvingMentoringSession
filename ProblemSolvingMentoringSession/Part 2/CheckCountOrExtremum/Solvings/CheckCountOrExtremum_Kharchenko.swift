@@ -10,9 +10,6 @@ final class CheckCountOrExtremum_Kharchenko: CheckCountOrExtremumProtocol {
                 maxNumber = list[number]
             }
         }
-        if maxNumber < list.count {
-            return true
-        }
-        return false
+        return maxNumber < list.count
     }
 }
