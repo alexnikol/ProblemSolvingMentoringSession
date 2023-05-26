@@ -7,8 +7,7 @@ final class AbsoluteDifferenceChallenge: XCTestCase {
     private var solvings: [AbsoluteDifferenceChallengeProtocol] = [
         AbsoluteDifferenceChallenge_Yakunin(),
         AbsoluteDifferenceChallenge_Kharchenko(),
-        AbsoluteDifferenceChallenge_Yurchenko()
-        AbsoluteDifferenceChallenge_Yakunin(),
+        AbsoluteDifferenceChallenge_Yurchenko(),
         AbsoluteDifferenceChallenge_Bilyk()
     ]
     
