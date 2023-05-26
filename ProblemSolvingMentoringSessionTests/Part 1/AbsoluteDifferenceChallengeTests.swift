@@ -8,6 +8,8 @@ final class AbsoluteDifferenceChallenge: XCTestCase {
         AbsoluteDifferenceChallenge_Yakunin(),
         AbsoluteDifferenceChallenge_Kharchenko(),
         AbsoluteDifferenceChallenge_Yurchenko()
+        AbsoluteDifferenceChallenge_Yakunin(),
+        AbsoluteDifferenceChallenge_Bilyk()
     ]
     
     func test_solvings() {
