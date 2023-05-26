@@ -11,6 +11,7 @@ import XCTest
 
 final class ReturnSumSearchedNumbersTests: XCTestCase {
     private var solvings: [ReturnSumSearchedNumbersProtocol] = [
+        ReturnSumSearchedNumbers_Yurchenko(),
         ReturnSumSearchedNumbers_Kharchenko()
     ]
     
