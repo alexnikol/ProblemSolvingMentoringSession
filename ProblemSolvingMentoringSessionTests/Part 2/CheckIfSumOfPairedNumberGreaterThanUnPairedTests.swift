@@ -13,6 +13,9 @@ import XCTest
 
 final class CheckIfSumOfPairedNumberGreaterThanUnPairedTests: XCTestCase {
     private var solvings: [CheckIfSumOfPairedNumberGreaterThanUnPairedProtocol] = [
+    CheckIfSumOfPairedNumberGreaterThanUnPaired_Yurchenko()
+    ]
+    private var solvings: [CheckIfSumOfPairedNumberGreaterThanUnPairedProtocol] = [
         CheckIfSumOfPairedNumberGreaterThanUnPaired_Kharchenko()
     ]
     

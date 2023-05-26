@@ -10,7 +10,10 @@ import XCTest
 @testable import ProblemSolvingMentoringSession
 
 final class ReturnListOfItemWithPairedIndexesGreaterThan5Tests: XCTestCase {
-    private var solvings: [ReturnListOfItemWithPairedIndexesGreaterThan5Protocol] = []
+    private var solvings: [ReturnListOfItemWithPairedIndexesGreaterThan5Protocol] = [
+        ReturnListOfItemWithPairedIndexesGreaterThan5_Yurchenko(),
+        ReturnListOfItemWithPairedIndexesGreaterThan5_Kharchenko()
+    ]
     
     func test_solvings() {
         solvings.forEach { assertThat(solving: $0) }
