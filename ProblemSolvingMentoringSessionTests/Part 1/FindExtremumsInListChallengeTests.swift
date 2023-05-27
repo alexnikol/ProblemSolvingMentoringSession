@@ -7,7 +7,8 @@ final class FindExtremumsInListChallengeTests: XCTestCase {
     private var solvings: [FindExtremumsInListChallengeProtocol] = [
         FindExtremumsInListChallenge_Yakunin(),
         FindExtremumsInListChallenge_Kharchenko(), 
-        FindExtremumsInListChallenge_Bilyk()
+        FindExtremumsInListChallenge_Bilyk(),
+        FindExtremumsInListChallenge_Yurchenko()
     ]
     
     func test_solvings() {

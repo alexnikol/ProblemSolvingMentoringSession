@@ -11,6 +11,7 @@ import XCTest
 
 final class CheckCountOrExtremumTests: XCTestCase {
     private var solvings: [CheckCountOrExtremumProtocol] = [
+        CheckCountOrExtremum_Yurchenko(),
         CheckCountOrExtremum_Kharchenko()
     ]
     

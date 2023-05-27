@@ -7,7 +7,8 @@ final class PairedOrUnpairedNumbersChallengeTests: XCTestCase {
     private var solvings: [PairedOrUnpairedNumbersChallengeProtocol] = [
         PairedOrUnpairedNumbersChallenge_Yakunin(),
         PairedOrUnpairedNumbersChallenge_Kharchenko(),
-        PairedOrUnpairedNumbersChallenge_Bilyk()
+        PairedOrUnpairedNumbersChallenge_Bilyk(),
+        PairedOrUnpairedNumbersChallenge_Yurchenko()
     ]
     
     func test_solvings() {
@@ -20,5 +21,6 @@ final class PairedOrUnpairedNumbersChallengeTests: XCTestCase {
         XCTAssertEqual(solving.solve(list: [1]), false)
         XCTAssertEqual(solving.solve(list: []), false)
         XCTAssertEqual(solving.solve(list: [1, 1, 2, 2]), false)
+        XCTAssertEqual(solving.solve(list: [2, 2, 1, 1]), false)
     }
 }
