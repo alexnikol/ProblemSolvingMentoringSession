@@ -8,7 +8,8 @@ final class FindAndReturnAllPairedNumbersChallengeTests: XCTestCase {
         FindAndReturnAllPairedNumbersChallenge_Yakunin(),
         FindAndReturnAllPairedNumbersChallenge_Kharchenko(),
         FindAndReturnAllPairedNumbersChallenge_Bilyk(),
-        FindAndReturnAllPairedNumbersChallenge_Yurchenko()
+        FindAndReturnAllPairedNumbersChallenge_Yurchenko(),
+        FindAndReturnAllPairedNumbersChallenge_Yurkiv()
     ]
     
     func test_solvings() {
