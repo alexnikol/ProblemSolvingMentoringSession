@@ -10,9 +10,7 @@ import Foundation
 
 final class FindAndReturnAllPairedNumbersChallenge_Yurkiv: FindAndReturnAllPairedNumbersChallengeProtocol {
     func solve(list: [Int]) -> [Int] {
-        list.filter { element in
-            guard element % 2 == 0 else { return false }
-            return true
-        }
+        list.filter { $0 % 2 == 0 }
     }
 }
+
