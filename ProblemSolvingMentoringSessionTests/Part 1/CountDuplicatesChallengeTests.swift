@@ -8,7 +8,8 @@ final class CountDuplicatesChallengeTests: XCTestCase {
         CountDuplicatesChallenge_Yakunin(),
         CountDuplicatesChallenge_Kharchenko(),
         CountDuplicatesChallenge_Bilyk(),
-        CountDuplicatesChallenge_Yurchenko()
+        CountDuplicatesChallenge_Yurchenko(),
+        CountDuplicatesChallenge_Yurkiv()
     ]
     
     func test_solvings() {
