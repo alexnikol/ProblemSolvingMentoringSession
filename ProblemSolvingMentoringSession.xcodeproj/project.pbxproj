@@ -141,6 +141,7 @@
 		9D6EE8DE2A0AD7AC00E97386 /* FindAndReturnAllPairedNumbersChallenge_Bilyk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6EE8DD2A0AD7AC00E97386 /* FindAndReturnAllPairedNumbersChallenge_Bilyk.swift */; };
 		ABA97DA12A2F3BA500CC60CB /* FindAndReturnAllPairedNumbersChallenge_Yurkiv.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA97DA02A2F3BA500CC60CB /* FindAndReturnAllPairedNumbersChallenge_Yurkiv.swift */; };
 		ABA97DA32A2F82A000CC60CB /* CountDuplicatesChallenge_Yurkiv.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA97DA22A2F82A000CC60CB /* CountDuplicatesChallenge_Yurkiv.swift */; };
+		ABA97DAB2A3238F100CC60CB /* FirstAndLastStringChallenge_Yurkiv.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABA97DAA2A3238F100CC60CB /* FirstAndLastStringChallenge_Yurkiv.swift */; };
 		D716D8882A17532F009E492F /* ReturnSumSearchedNumbersProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D716D8872A17532F009E492F /* ReturnSumSearchedNumbersProtocol.swift */; };
 		D716D88A2A175420009E492F /* ReturnSumSearchedNumbersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D716D8892A175420009E492F /* ReturnSumSearchedNumbersTests.swift */; };
 		D716D88D2A1755AD009E492F /* CheckCountOrExtremumProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D716D88C2A1755AD009E492F /* CheckCountOrExtremumProtocol.swift */; };
@@ -297,6 +298,7 @@
 		9D6EE8DD2A0AD7AC00E97386 /* FindAndReturnAllPairedNumbersChallenge_Bilyk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAndReturnAllPairedNumbersChallenge_Bilyk.swift; sourceTree = "<group>"; };
 		ABA97DA02A2F3BA500CC60CB /* FindAndReturnAllPairedNumbersChallenge_Yurkiv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindAndReturnAllPairedNumbersChallenge_Yurkiv.swift; sourceTree = "<group>"; };
 		ABA97DA22A2F82A000CC60CB /* CountDuplicatesChallenge_Yurkiv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDuplicatesChallenge_Yurkiv.swift; sourceTree = "<group>"; };
+		ABA97DAA2A3238F100CC60CB /* FirstAndLastStringChallenge_Yurkiv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAndLastStringChallenge_Yurkiv.swift; sourceTree = "<group>"; };
 		D716D8872A17532F009E492F /* ReturnSumSearchedNumbersProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnSumSearchedNumbersProtocol.swift; sourceTree = "<group>"; };
 		D716D8892A175420009E492F /* ReturnSumSearchedNumbersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReturnSumSearchedNumbersTests.swift; sourceTree = "<group>"; };
 		D716D88C2A1755AD009E492F /* CheckCountOrExtremumProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckCountOrExtremumProtocol.swift; sourceTree = "<group>"; };
@@ -555,6 +557,7 @@
 				332A716B2A0BB19A00805E63 /* FirstAndLastStringChallenge_Kharchenko.swift */,
 				9D37A4E52A166E6800D100CB /* FirstAndLastStringChallenge_Bilyk.swift */,
 				1C9100C52A114D9100E8351B /* FirstAndLastStringChallenge_Yurchenko.swift */,
+				ABA97DAA2A3238F100CC60CB /* FirstAndLastStringChallenge_Yurkiv.swift */,
 			);
 			path = Solvings;
 			sourceTree = "<group>";
@@ -1151,6 +1154,7 @@
 				9D37A4CA2A0C357000D100CB /* FindIndexOfSearchedNumberChallenge_Bilyk.swift in Sources */,
 				9D37A4BD2A0BA23000D100CB /* CountDuplicatesChallenge_Bilyk.swift in Sources */,
 				8D7D74F329FAADCA00AD211F /* CheckNumberInRangeOf12And24Challenge_Kharchenko.swift in Sources */,
+				ABA97DAB2A3238F100CC60CB /* FirstAndLastStringChallenge_Yurkiv.swift in Sources */,
 				8DCA3B8629F289D2002A185B /* CountDuplicatesChallengeProtocol.swift in Sources */,
 				8D4300DA29F139E1007BDE1A /* FirstAndLastStringChallengeProtocol.swift in Sources */,
 				9D37A4CE2A0C394D00D100CB /* PairedOrUnpairedNumbersChallenge_Bilyk.swift in Sources */,
