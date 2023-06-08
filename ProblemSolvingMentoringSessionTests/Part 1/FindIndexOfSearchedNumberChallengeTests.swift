@@ -8,7 +8,8 @@ final class FindIndexOfSearchedNumberChallengeTests: XCTestCase {
         FindIndexOfSearchedNumberChallenge_Yakunin(),
         FindIndexOfSearchedNumberChallenge_Yurchenko(),
         FindIndexOfSearchedNumberChallenge_Kharchenko(),
-        FindIndexOfSearchedNumberChallenge_Bilyk()
+        FindIndexOfSearchedNumberChallenge_Bilyk(),
+        FindIndexOfSearchedNumberChallenge_Yurkiv()
     ]
     
     func test_solvings() {
