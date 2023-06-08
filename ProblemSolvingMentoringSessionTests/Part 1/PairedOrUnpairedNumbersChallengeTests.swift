@@ -8,7 +8,8 @@ final class PairedOrUnpairedNumbersChallengeTests: XCTestCase {
         PairedOrUnpairedNumbersChallenge_Yakunin(),
         PairedOrUnpairedNumbersChallenge_Kharchenko(),
         PairedOrUnpairedNumbersChallenge_Bilyk(),
-        PairedOrUnpairedNumbersChallenge_Yurchenko()
+        PairedOrUnpairedNumbersChallenge_Yurchenko(),
+        PairedOrUnpairedNumbersChallenge_Yurkiv()
     ]
     
     func test_solvings() {
