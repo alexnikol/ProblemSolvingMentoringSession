@@ -8,7 +8,8 @@ final class FirstIndexOfSearchedItemTests: XCTestCase {
         FirstIndexOfSearchedItemChallenge_Yakunin(),
         FirstIndexOfSearchedItemChallenge_Kharchenko(),
         FirstIndexOfSearchedItemChallenge_Bilyk(),
-        FirstIndexOfSearchedItemChallenge_Yurchenko()
+        FirstIndexOfSearchedItemChallenge_Yurchenko(),
+        FirstIndexOfSearchedItemChallenge_Yurkiv()
     ]
     
     func test_solvings() {
