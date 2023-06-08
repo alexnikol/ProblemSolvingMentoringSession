@@ -8,7 +8,8 @@ final class FindExtremumsInListChallengeTests: XCTestCase {
         FindExtremumsInListChallenge_Yakunin(),
         FindExtremumsInListChallenge_Kharchenko(), 
         FindExtremumsInListChallenge_Bilyk(),
-        FindExtremumsInListChallenge_Yurchenko()
+        FindExtremumsInListChallenge_Yurchenko(),
+        FindExtremumsInListChallenge_Yurkiv()
     ]
     
     func test_solvings() {
