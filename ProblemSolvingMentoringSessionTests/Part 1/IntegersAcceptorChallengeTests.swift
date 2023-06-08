@@ -8,7 +8,8 @@ final class IntegersAcceptorChallengeTests: XCTestCase {
         IntegersAcceptorChallenge_Kharchenko(),
         IntegersAcceptorChallenge_Yurchenko(),
         IntegersAcceptorChallenge_Yakunin(),
-        IntegersAcceptorChallenge_Bilyk()
+        IntegersAcceptorChallenge_Bilyk(),
+        IntegersAcceptorChallenge_Yurkiv()
     ]
     
     func test_solvings() {
