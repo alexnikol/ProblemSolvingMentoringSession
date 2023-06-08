@@ -8,7 +8,8 @@ final class MinimumNumberInListChallengeTests: XCTestCase {
         MinimumNumberInListChallenge_Bilyk(),
         MinimumNumberInListChallenge_Yakunin(),
         MinimumNumberInList_Kharchenko(),
-        MinimumNumberInListChallenge_Yurchenko()
+        MinimumNumberInListChallenge_Yurchenko(),
+        MinimumNumberInListChallenge_Yurkiv()
     ]
     
     func test_solvings() {
